@@ -359,12 +359,12 @@ const certifications = {
 			color_code: "#2E8B57"
 		},
 		{
-			title: "AWS Summit Online On-Demand",
+			title: "AWS Fundamentals Building Serverless Applications",
 			subtitle: "- Amazon Web Services, 2020",
 			logo_path: "aws_logo.png",
 			certificate_link:
-				"",
-			alt_name: "AWS Summit Online On-Demand",
+				"https://www.coursera.org/account/accomplishments/records/55YCUKUJU2LW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+			alt_name: "AWS Fundamentals Building Serverless Applications",
 			color_code: "#FF9B00"
 		},
 		{
