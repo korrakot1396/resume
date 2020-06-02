@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.06c92994.chunk.css",
-    "main.js": "/resume/static/js/main.e509a874.chunk.js",
-    "main.js.map": "/resume/static/js/main.e509a874.chunk.js.map",
+    "main.js": "/resume/static/js/main.682aba58.chunk.js",
+    "main.js.map": "/resume/static/js/main.682aba58.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.6fb5c070.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.6fb5c070.js.map",
-    "static/js/2.c09a9574.chunk.js": "/resume/static/js/2.c09a9574.chunk.js",
-    "static/js/2.c09a9574.chunk.js.map": "/resume/static/js/2.c09a9574.chunk.js.map",
+    "static/js/2.2d46a867.chunk.js": "/resume/static/js/2.2d46a867.chunk.js",
+    "static/js/2.2d46a867.chunk.js.map": "/resume/static/js/2.2d46a867.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.42008af5ec63952b0f618c7065c22fae.js": "/resume/precache-manifest.42008af5ec63952b0f618c7065c22fae.js",
+    "precache-manifest.9f83d1311a25dbffd86798339c23eb19.js": "/resume/precache-manifest.9f83d1311a25dbffd86798339c23eb19.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.06c92994.chunk.css.map": "/resume/static/css/main.06c92994.chunk.css.map",
     "static/media/index.css": "/resume/static/media/Montserrat-Regular.ee653992.ttf",
@@ -30,8 +30,9 @@
     "static/media/education.svg": "/resume/static/media/education.caed892b.svg",
     "static/media/experience.svg": "/resume/static/media/experience.85d6957f.svg",
     "static/media/all.css": "/resume/static/media/fa-solid-900.8e4a6dcc.eot",
-    "static/media/feelingProud.svg": "/resume/static/media/feelingProud.4a6fd2b3.svg",
+    "static/media/feelingProud.svg": "/resume/static/media/feelingProud.08131860.svg",
     "static/media/feelingProud1.svg": "/resume/static/media/feelingProud1.a73310ea.svg",
+    "static/media/feelingProud2.svg": "/resume/static/media/feelingProud2.4a6fd2b3.svg",
     "static/media/fullstack.svg": "/resume/static/media/fullstack.589bec7d.svg",
     "static/media/gcp_logo.png": "/resume/static/media/gcp_logo.ba18401b.png",
     "static/media/github_logo.png": "/resume/static/media/github_logo.e64de169.png",
@@ -58,8 +59,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6fb5c070.js",
-    "static/js/2.c09a9574.chunk.js",
+    "static/js/2.2d46a867.chunk.js",
     "static/css/main.06c92994.chunk.css",
-    "static/js/main.e509a874.chunk.js"
+    "static/js/main.682aba58.chunk.js"
   ]
 }

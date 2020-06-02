@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d78081ec99dd18fd3c498e331d953728",
+    "revision": "8719411d26d181b8659258a371a6c0c1",
     "url": "/resume/index.html"
   },
   {
-    "revision": "5bf931f5c2291dd6cca4",
+    "revision": "26ce531ea66237136616",
     "url": "/resume/static/css/main.06c92994.chunk.css"
   },
   {
-    "revision": "d7c6f83e9dd0320ec58a",
-    "url": "/resume/static/js/2.c09a9574.chunk.js"
+    "revision": "9ebba0807fc87935859c",
+    "url": "/resume/static/js/2.2d46a867.chunk.js"
   },
   {
-    "revision": "5bf931f5c2291dd6cca4",
-    "url": "/resume/static/js/main.e509a874.chunk.js"
+    "revision": "26ce531ea66237136616",
+    "url": "/resume/static/js/main.682aba58.chunk.js"
   },
   {
     "revision": "dbc8937526bebbda9c6b",
@@ -180,12 +180,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "4a6fd2b366516e51eb091116f9096ab1",
-    "url": "/resume/static/media/feelingProud.4a6fd2b3.svg"
+    "revision": "08131860d5b8fd37bdb041d7adae0305",
+    "url": "/resume/static/media/feelingProud.08131860.svg"
   },
   {
     "revision": "a73310ea0ad8aebedb65b3106024427a",
     "url": "/resume/static/media/feelingProud1.a73310ea.svg"
+  },
+  {
+    "revision": "4a6fd2b366516e51eb091116f9096ab1",
+    "url": "/resume/static/media/feelingProud2.4a6fd2b3.svg"
   },
   {
     "revision": "589bec7d632ecff9672dc4da97897bbd",
