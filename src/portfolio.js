@@ -33,54 +33,14 @@ const socialMediaLinks = {
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      imagePath: "data_science.svg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent"
-          }
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000"
-          }
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent"
-          }
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB"
-          }
-        }
-      ]
-    },
+
     {
       title: "Full Stack Development",
       imagePath: "fullstack.svg",
       skills: [
         "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask"
+        "⚡ Developing mobile applications using Flutter, Java and solo android apps using Kotlin",
+        "⚡ Creating application backend in Node, Express, Php Laravel"
       ],
       softwareSkills: [
         {
@@ -92,16 +52,9 @@ const skills = {
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          fontAwesomeClassname: "simple-icons:css3",
           style: {
             color: "#1572B6"
-          }
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699"
           }
         },
         {
@@ -110,6 +63,27 @@ const skills = {
           style: {
             backgroundColor: "#000000",
             color: "#F7DF1E"
+          }
+        },
+        {
+          skillName: "Php",
+          fontAwesomeClassname: "simple-icons:php",
+          style: {
+            color: "#7B68EE"
+          }
+        },
+        {
+          skillName: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+          style: {
+            color: "#FF4646"
+          }
+        },
+        {
+          skillName: "VueJS",
+          fontAwesomeClassname: "simple-icons:vuejs",
+          style: {
+            color: "#2E8B57"
           }
         },
         {
@@ -134,17 +108,17 @@ const skills = {
           }
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
           style: {
-            color: "#2C8EBB"
+            color: "#000069"
           }
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:spring",
           style: {
-            color: "#663399"
+            color: "#64CD3C"
           }
         },
         {
@@ -262,7 +236,49 @@ const skills = {
           }
         }
       ]
+    },
+    {
+      title: "Data Science & AI",
+      imagePath: "data_science.svg",
+      skills: [
+        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent"
+          }
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000"
+          }
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent"
+          }
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB"
+          }
+        }
+      ]
     }
+    
   ]
 };
 
