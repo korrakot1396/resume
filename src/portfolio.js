@@ -336,9 +336,9 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2016 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics."
+        "⚡ I have studied basic software engineering subjects like Intro Comsci, Data Structure, Algorithms, DBMS, OS, Java etc.",
+        "⚡ I have studied basic software engineering subjects like Software Engineer, Mobile Application, Web Tech etc.",
+        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development."
       ],
       website_link: "https://ku.ac.th"
     }
