@@ -337,7 +337,7 @@ const degrees = {
       duration: "2016 - Present",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like Intro Comsci, Data Structure, Algorithms, DBMS, OS, Java etc.",
-        "⚡ I have studied basic software engineering subjects like Software Engineer, Mobile Application, Web Tech etc.",
+        "⚡ I like studied subjects Software Engineer, Mobile Application, Web Technology & Web Services, Cloud Computing etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development."
       ],
       website_link: "https://ku.ac.th"
@@ -391,16 +391,25 @@ const certifications = {
 				"https://www.coursera.org/account/accomplishments/records/VMF5E3BWB9AE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
 			alt_name: "Google Cloud Platform Fundamentals Core Infrastructure",
 			color_code: "#4285F499"
-		},
-		{
-			title: "Fullstack Development",
-			subtitle: "- HKUST, 2020",
-			logo_path: "coursera_logo.png",
+    },
+    {
+			title: "AWS Fundamentals: Going Cloud-Native",
+			subtitle: "- Amazon Web Services, 2020",
+			logo_path: "aws_logo.png",
 			certificate_link:
-				"",
-			alt_name: "IBM",
-			color_code: "#1F70C199"
+				"https://coursera.org/share/8d0cfaf9425b9b0051dec5d343311f3f",
+			alt_name: "AWS Fundamentals: Going Cloud-Native",
+			color_code: "#FF9B00"
 		},
+		// {
+		// 	title: "Fullstack Development",
+		// 	subtitle: "- HKUST, 2020",
+		// 	logo_path: "coursera_logo.png",
+		// 	certificate_link:
+		// 		"",
+		// 	alt_name: "IBM",
+		// 	color_code: "#1F70C199"
+		// },
 		// {
 		// 	title: "Advanced ML on GCP",
 		// 	subtitle: "- GCP Training",
