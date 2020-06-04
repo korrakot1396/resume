@@ -348,6 +348,60 @@ const degrees = {
 const certifications = {
 	certifications: [
 		{
+			title: "AWS Fundamentals Building Serverless Applications",
+			subtitle: "- Amazon Web Services, 2020",
+			logo_path: "aws_logo.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/55YCUKUJU2LW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+			alt_name: "AWS Fundamentals Building Serverless Applications",
+			color_code: "#FF9B00"
+		},
+		{
+			title: "Google Cloud Platform Fundamentals Core Infrastructure",
+			subtitle: "- Google Cloud, 2020",
+			logo_path: "google_cloud_logo.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/VMF5E3BWB9AE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+			alt_name: "Google Cloud Platform Fundamentals Core Infrastructure",
+			color_code: "#4285F499"
+    },
+    {
+			title: "Fullstack Development",
+			subtitle: "- HKUST, 2020",
+			logo_path: "coursera_logo.png",
+			certificate_link:
+				"https://coursera.org/share/527e78f62ec6e1d05ac55f4e1f5389e8",
+			alt_name: "Fullstack Development - HKUST ",
+			color_code: "#2A73CC"
+		},
+		{
+			title: "Technical Support Fundamentals",
+			subtitle: "- Google, 2020",
+			logo_path: "google_logo.png",
+			certificate_link:
+				"",
+			alt_name: "Technical Support Fundamentals",
+			color_code: "#87EEC6"
+		},
+    {
+			title: "AWS Fundamentals: Going Cloud-Native",
+			subtitle: "- Amazon Web Services, 2020",
+			logo_path: "aws_logo.png",
+			certificate_link:
+				"https://coursera.org/share/8d0cfaf9425b9b0051dec5d343311f3f",
+			alt_name: "AWS Fundamentals: Going Cloud-Native",
+			color_code: "#FF9B00"
+		},
+		{
+			title: "HTML, CSS, and Javascript for Web Developers",
+			subtitle: "- Johns Hopkins University, 2020",
+			logo_path: "johns_hopkins_logo.png",
+			certificate_link:
+				"https://coursera.org/share/3a87a5827e2bf1edaae931caec47af2f",
+			alt_name: "HTML, CSS, and Javascript for Web Developers",
+			color_code: "#9BC3FF"
+    },
+    {
 			title: "Practical Data Analytics",
 			subtitle: "- CHULA MOOC, 2020",
       logo_path: "chula_mooc.png",
@@ -374,60 +428,6 @@ const certifications = {
 			alt_name: "Kasetsart University - COVID English ",
 			color_code: "#2E8B57"
 		},
-		{
-			title: "AWS Fundamentals Building Serverless Applications",
-			subtitle: "- Amazon Web Services, 2020",
-			logo_path: "aws_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/records/55YCUKUJU2LW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
-			alt_name: "AWS Fundamentals Building Serverless Applications",
-			color_code: "#FF9B00"
-		},
-		{
-			title: "Google Cloud Platform Fundamentals Core Infrastructure",
-			subtitle: "- Google Cloud, 2020",
-			logo_path: "google_cloud_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/records/VMF5E3BWB9AE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
-			alt_name: "Google Cloud Platform Fundamentals Core Infrastructure",
-			color_code: "#4285F499"
-    },
-    {
-			title: "AWS Fundamentals: Going Cloud-Native",
-			subtitle: "- Amazon Web Services, 2020",
-			logo_path: "aws_logo.png",
-			certificate_link:
-				"https://coursera.org/share/8d0cfaf9425b9b0051dec5d343311f3f",
-			alt_name: "AWS Fundamentals: Going Cloud-Native",
-			color_code: "#FF9B00"
-		},
-		// {
-		// 	title: "Fullstack Development",
-		// 	subtitle: "- HKUST, 2020",
-		// 	logo_path: "coursera_logo.png",
-		// 	certificate_link:
-		// 		"",
-		// 	alt_name: "IBM",
-		// 	color_code: "#1F70C199"
-		// },
-		// {
-		// 	title: "Advanced ML on GCP",
-		// 	subtitle: "- GCP Training",
-		// 	logo_path: "google_logo.png",
-		// 	certificate_link:
-		// 		"https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-		// 	alt_name: "Google",
-		// 	color_code: "#0C9D5899"
-		// },
-		// {
-		// 	title: "DL on Tensorflow",
-		// 	subtitle: "- Laurence Moroney",
-		// 	logo_path: "deeplearning_ai_logo.png",
-		// 	certificate_link:
-		// 		"https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-		// 	alt_name: "deeplearning.ai",
-		// 	color_code: "#00000099"
-		// },
 		// {
 		// 	title: "Fullstack Development",
 		// 	subtitle: "- Jogesh Muppala",
