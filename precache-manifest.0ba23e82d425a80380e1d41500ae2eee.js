@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43a59e6c14751e9940e29d256fa98e99",
+    "revision": "8d6546673c3486f5c7edfc01ac601bc3",
     "url": "/resume/index.html"
   },
   {
-    "revision": "cd3d65f2ffc07745ac6c",
+    "revision": "fda263c27a961be191d9",
     "url": "/resume/static/css/main.74f35ff3.chunk.css"
   },
   {
-    "revision": "b7982f6bcdb0f6aa508f",
-    "url": "/resume/static/js/2.088ea4eb.chunk.js"
+    "revision": "347a5a815d7491877f9c",
+    "url": "/resume/static/js/2.fa35338a.chunk.js"
   },
   {
-    "revision": "cd3d65f2ffc07745ac6c",
-    "url": "/resume/static/js/main.c1e179be.chunk.js"
+    "revision": "fda263c27a961be191d9",
+    "url": "/resume/static/js/main.ca7c2193.chunk.js"
   },
   {
     "revision": "800007e1647bf83f1841",
@@ -234,6 +234,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "57edaf9b86b89cb3c668e132bf7bdfe1",
     "url": "/resume/static/media/ku_mooc.57edaf9b.png"
+  },
+  {
+    "revision": "af9466d39be8a1506a9f6828b6129586",
+    "url": "/resume/static/media/learn_quest_logo.af9466d3.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
