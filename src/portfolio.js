@@ -383,6 +383,80 @@ const certifications = {
 			alt_name: "Technical Support Fundamentals",
 			color_code: "#87EEC6"
 		},
+    		{
+			title: "Responsive Website Basics: Code with HTML, CSS, and JavaScript",
+			subtitle: "-  University of London, 2020",
+			logo_path: "uni_london2_logo.png",
+			certificate_link:
+				"https://coursera.org/share/bce9487382ec206352c8f54d38f7b51b",
+			alt_name: "Responsive Website Basics: Code with HTML, CSS, and JavaScript",
+			color_code: "#CD0000"
+    },
+		{
+			title: "HTML, CSS, and Javascript for Web Developers",
+			subtitle: "- Johns Hopkins University, 2020",
+			logo_path: "johns_hopkins_logo.png",
+			certificate_link:
+				"https://coursera.org/share/3a87a5827e2bf1edaae931caec47af2f",
+			alt_name: "HTML, CSS, and Javascript for Web Developers",
+			color_code: "#1E3269"
+    },
+    {
+			title: "Kotlin for Java Developers",
+			subtitle: "- JetBrains, 2020",
+			logo_path: "kotlin_logo.png",
+			certificate_link:
+				"",
+			alt_name: "Kotlin for Java Developers",
+			color_code: "#323232"
+    },
+    {
+			title: "Getting Started with Go",
+			subtitle: "- University of California, Irvine, 2020",
+			logo_path: "golang_logo.png",
+			certificate_link:
+				"",
+			alt_name: "Getting Started with Go",
+			color_code: "#66F8F0"
+    },
+    {
+			title: "Intro to TensorFlow",
+			subtitle: "- Google Cloud, 2020",
+			logo_path: "tensorflow_logo.png",
+			certificate_link:
+				"",
+			alt_name: "Intro to TensorFlow",
+			color_code: "#FAFABE"
+    },
+
+    {
+			title: "Mastering the Software Engineering Interview",
+			subtitle: "- University of San Diego, 2020",
+			logo_path: "sandiego_logo.png",
+			certificate_link:
+				"",
+			alt_name: "Mastering the Software Engineering Interview",
+			color_code: "#1E3269"
+		},
+		{
+			title: "Building Database Applications in PHP",
+			subtitle: "- University of Michigan, 2020",
+			logo_path: "michigan_logo.png",
+			certificate_link:
+				"",
+			alt_name: "Building Database Applications in PHP",
+			color_code: "#1E3269"
+    },
+    {
+			title: "Network Security & Database Vulnerabilities",
+			subtitle: "- IBM, 2020",
+			logo_path: "ibm_logo.png",
+			certificate_link:
+				"",
+			alt_name: "Network Security & Database Vulnerabilities",
+			color_code: "#dcdcdc"
+		},
+
     {
 			title: "AWS Fundamentals: Going Cloud-Native",
 			subtitle: "- Amazon Web Services, 2020",
@@ -393,14 +467,23 @@ const certifications = {
 			color_code: "#FF9B00"
 		},
 		{
-			title: "HTML, CSS, and Javascript for Web Developers",
-			subtitle: "- Johns Hopkins University, 2020",
-			logo_path: "johns_hopkins_logo.png",
+			title: "Developing AI Applications on Azure",
+			subtitle: "- LearnQuest, 2020",
+			logo_path: "azure_ai_logo.png",
 			certificate_link:
-				"https://coursera.org/share/3a87a5827e2bf1edaae931caec47af2f",
-			alt_name: "HTML, CSS, and Javascript for Web Developers",
-			color_code: "#9BC3FF"
+				"https://coursera.org/share/91525f3dc01eeb36c8f3b89f8d32c540",
+			alt_name: "Developing AI Applications on Azure",
+			color_code: "#4285F499"
     },
+    {
+			title: "AWS Fundamentals: Migrating to the Cloud",
+			subtitle: "- Amazon Web Services, 2020",
+			logo_path: "aws_logo.png",
+			certificate_link:
+				"https://coursera.org/share/247a6a7ed79e8744a8c8423549006156",
+			alt_name: "AWS Fundamentals: Migrating to the Cloud",
+			color_code: "#FF9B00"
+		},
     {
 			title: "Practical Data Analytics",
 			subtitle: "- CHULA MOOC, 2020",
@@ -428,24 +511,7 @@ const certifications = {
 			alt_name: "Kasetsart University - COVID English ",
 			color_code: "#2E8B57"
 		},
-		// {
-		// 	title: "Fullstack Development",
-		// 	subtitle: "- Jogesh Muppala",
-		// 	logo_path: "coursera_logo.png",
-		// 	certificate_link:
-		// 		"https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-		// 	alt_name: "Coursera",
-		// 	color_code: "#2A73CC"
-		// },
-		// {
-		// 	title: "Kuberenetes on GCP",
-		// 	subtitle: "- Qwiklabs",
-		// 	logo_path: "gcp_logo.png",
-		// 	certificate_link:
-		// 		"https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-		// 	alt_name: "GCP",
-		// 	color_code: "#4285F499"
-		// },
+   
 		// {
 		// 	title: "Cryptography",
 		// 	subtitle: "- Saurabh Mukhopadhyay",
