@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3724deefd098d281d6fce7fb45aadabb",
+    "revision": "d41769faf6e11d166cda36a69afe8f69",
     "url": "/resume/index.html"
   },
   {
-    "revision": "a0c12aa77518be87decb",
+    "revision": "e1f6d2ab1be7ae5ec3e7",
     "url": "/resume/static/css/main.956b2c88.chunk.css"
   },
   {
-    "revision": "347a5a815d7491877f9c",
-    "url": "/resume/static/js/2.fa35338a.chunk.js"
+    "revision": "e78aa6d7fa31b76b4902",
+    "url": "/resume/static/js/2.c23f7b17.chunk.js"
   },
   {
-    "revision": "a0c12aa77518be87decb",
-    "url": "/resume/static/js/main.ca7c2193.chunk.js"
+    "revision": "e1f6d2ab1be7ae5ec3e7",
+    "url": "/resume/static/js/main.152f8b5d.chunk.js"
   },
   {
     "revision": "800007e1647bf83f1841",
@@ -204,6 +204,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/github_logo.e64de169.png"
   },
   {
+    "revision": "e675c2d8342e8bb7a862e55b5aad52f8",
+    "url": "/resume/static/media/golang_logo.e675c2d8.png"
+  },
+  {
     "revision": "0c8a4c114ad00f7854e91550379b9b91",
     "url": "/resume/static/media/googleAssistant.0c8a4c11.jpg"
   },
@@ -216,24 +220,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/google_cloud_logo.ba18401b.png"
   },
   {
-    "revision": "6d325fec19fe3b6b169d9012f9a1dfb9",
-    "url": "/resume/static/media/ibm_logo.6d325fec.png"
-  },
-  {
     "revision": "29152cf756a1facead5393c32e373371",
     "url": "/resume/static/media/intel_logo.29152cf7.jpg"
+  },
+  {
+    "revision": "d43ac1d73fc9c12369078056403daad8",
+    "url": "/resume/static/media/johns_hopkins1_logo.d43ac1d7.png"
+  },
+  {
+    "revision": "d4b5110aa504c636d59c70e58bbfbd86",
+    "url": "/resume/static/media/johns_hopkins_logo.d4b5110a.png"
   },
   {
     "revision": "b05ae5b575a7e1125610944dc152c35f",
     "url": "/resume/static/media/jsFramework.b05ae5b5.svg"
   },
   {
+    "revision": "8d8be270d0bed8a08c9a4cdeba1d07c2",
+    "url": "/resume/static/media/kotlin.8d8be270.png"
+  },
+  {
     "revision": "4e65dfd58c9db173cec96a43a573b70f",
     "url": "/resume/static/media/ku_logo.4e65dfd5.png"
   },
   {
-    "revision": "57edaf9b86b89cb3c668e132bf7bdfe1",
-    "url": "/resume/static/media/ku_mooc.57edaf9b.png"
+    "revision": "add24b4b574041053c6349ae7b48f950",
+    "url": "/resume/static/media/ku_mooc.add24b4b.png"
   },
   {
     "revision": "af9466d39be8a1506a9f6828b6129586",
@@ -244,8 +256,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "6bad7c15c880d2ce11f53daa87d673a7",
-    "url": "/resume/static/media/mu_mooc.6bad7c15.png"
+    "revision": "12bcb7f03ec9584fdda5d13838e9518c",
+    "url": "/resume/static/media/michigan.12bcb7f0.jpg"
+  },
+  {
+    "revision": "109c9d4e78793653175b3aea2b0bcbca",
+    "url": "/resume/static/media/michigan_logo.109c9d4e.png"
+  },
+  {
+    "revision": "93637db60408ed3b72ab9ac35a92945d",
+    "url": "/resume/static/media/mu_mooc.93637db6.png"
   },
   {
     "revision": "db6c1c0dddd4c868e00a3cffa1078e49",
@@ -272,6 +292,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/pwa.bd5f4148.png"
   },
   {
+    "revision": "bbc7689ec50ba0b35693a74137f3d37b",
+    "url": "/resume/static/media/sandiego_logo.bbc7689e.png"
+  },
+  {
     "revision": "da0e7c80b90df28dd3a590c80f3d4970",
     "url": "/resume/static/media/stanford_logo.da0e7c80.png"
   },
@@ -284,7 +308,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/talksCardBackAlt.7f0feeed.svg"
   },
   {
+    "revision": "9d54163a03f5dd7d02e64bf0d59b5bb6",
+    "url": "/resume/static/media/tensorflow_logo.9d54163a.png"
+  },
+  {
     "revision": "67a6a11c47edafb87cf24da66afe3dca",
     "url": "/resume/static/media/ui_ux_design.67a6a11c.svg"
+  },
+  {
+    "revision": "b818be07e9674ce93d91db428af0c874",
+    "url": "/resume/static/media/uni_london2_logo.b818be07.png"
+  },
+  {
+    "revision": "a9552c3cb61f85872e07634fb6be0a3d",
+    "url": "/resume/static/media/uni_london_logo.a9552c3c.png"
   }
 ]);
