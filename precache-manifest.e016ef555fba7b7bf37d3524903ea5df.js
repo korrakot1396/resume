@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d41769faf6e11d166cda36a69afe8f69",
+    "revision": "0beea7761a7f64e1dbbb54e990349584",
     "url": "/resume/index.html"
   },
   {
-    "revision": "e1f6d2ab1be7ae5ec3e7",
+    "revision": "e2c9b4e54c0682808ec2",
     "url": "/resume/static/css/main.956b2c88.chunk.css"
   },
   {
-    "revision": "e78aa6d7fa31b76b4902",
-    "url": "/resume/static/js/2.c23f7b17.chunk.js"
+    "revision": "9ea4d2c59dafa8a48ba5",
+    "url": "/resume/static/js/2.034a27b1.chunk.js"
   },
   {
-    "revision": "e1f6d2ab1be7ae5ec3e7",
-    "url": "/resume/static/js/main.152f8b5d.chunk.js"
+    "revision": "e2c9b4e54c0682808ec2",
+    "url": "/resume/static/js/main.94f8d614.chunk.js"
   },
   {
     "revision": "800007e1647bf83f1841",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5c77a6aed75cdad9489effd0d5ea411",
     "url": "/resume/static/media/GoogleSans-Regular.b5c77a6a.ttf"
+  },
+  {
+    "revision": "941ee23e14b0778d7a00ec14924d81cb",
+    "url": "/resume/static/media/Mahidol_standard_ENG2-01.941ee23e.jpg"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -244,8 +248,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/ku_logo.4e65dfd5.png"
   },
   {
-    "revision": "add24b4b574041053c6349ae7b48f950",
-    "url": "/resume/static/media/ku_mooc.add24b4b.png"
+    "revision": "86d8b69b7e943dc116b4d09c72aed38a",
+    "url": "/resume/static/media/ku_mooc.86d8b69b.png"
   },
   {
     "revision": "af9466d39be8a1506a9f6828b6129586",
@@ -264,8 +268,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/michigan_logo.109c9d4e.png"
   },
   {
-    "revision": "93637db60408ed3b72ab9ac35a92945d",
-    "url": "/resume/static/media/mu_mooc.93637db6.png"
+    "revision": "c35f9aee5fb77657bb0c2be8be617799",
+    "url": "/resume/static/media/mu_mooc.c35f9aee.png"
   },
   {
     "revision": "db6c1c0dddd4c868e00a3cffa1078e49",
