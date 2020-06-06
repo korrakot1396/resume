@@ -348,13 +348,12 @@ const degrees = {
 const certifications = {
 	certifications: [
 		{
-			title: "AWS Fundamentals Building Serverless Applications",
+			title: "AWS Fundamentals",
 			subtitle: "- Amazon Web Services, 2020",
-			logo_path: "aws_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/records/55YCUKUJU2LW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
-			alt_name: "AWS Fundamentals Building Serverless Applications",
-			color_code: "#FF9B00"
+			logo_path: "aws_cer.png",
+			certificate_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/SVRBN7ZKYMVF",
+			alt_name: "AWS Fundamentals",
+			color_code: "#000000"
 		},
 		{
 			title: "Google Cloud Platform Fundamentals Core Infrastructure",
@@ -406,7 +405,7 @@ const certifications = {
 			subtitle: "- JetBrains, 2020",
 			logo_path: "kotlin_logo.png",
 			certificate_link:
-				"",
+				"https://coursera.org/share/a33b6cd8925301a823ee7a50024b04c7",
 			alt_name: "Kotlin for Java Developers",
 			color_code: "#323232"
     },
@@ -455,7 +454,17 @@ const certifications = {
 				"",
 			alt_name: "Network Security & Database Vulnerabilities",
 			color_code: "#dcdcdc"
-		},
+    },
+    
+    {
+			title: "Developing AI Applications on Azure",
+			subtitle: "- LearnQuest, 2020",
+			logo_path: "azure_ai_logo.png",
+			certificate_link:
+				"https://coursera.org/share/91525f3dc01eeb36c8f3b89f8d32c540",
+			alt_name: "Developing AI Applications on Azure",
+			color_code: "#4285F499"
+    },
 
     {
 			title: "AWS Fundamentals: Going Cloud-Native",
@@ -465,16 +474,18 @@ const certifications = {
 				"https://coursera.org/share/8d0cfaf9425b9b0051dec5d343311f3f",
 			alt_name: "AWS Fundamentals: Going Cloud-Native",
 			color_code: "#FF9B00"
-		},
-		{
-			title: "Developing AI Applications on Azure",
-			subtitle: "- LearnQuest, 2020",
-			logo_path: "azure_ai_logo.png",
-			certificate_link:
-				"https://coursera.org/share/91525f3dc01eeb36c8f3b89f8d32c540",
-			alt_name: "Developing AI Applications on Azure",
-			color_code: "#4285F499"
     },
+    
+    {
+			title: "AWS Fundamentals: Addressing Security Risk",
+			subtitle: "- Amazon Web Services, 2020",
+			logo_path: "aws_logo.png",
+			certificate_link:
+				"https://coursera.org/share/13595e6c93303198ba70a8e4d8541fbe",
+			alt_name: "AWS Fundamentals: Addressing Security Risk",
+			color_code: "#FF9B00"
+		},
+
     {
 			title: "AWS Fundamentals: Migrating to the Cloud",
 			subtitle: "- Amazon Web Services, 2020",
@@ -483,7 +494,18 @@ const certifications = {
 				"https://coursera.org/share/247a6a7ed79e8744a8c8423549006156",
 			alt_name: "AWS Fundamentals: Migrating to the Cloud",
 			color_code: "#FF9B00"
+    },
+
+    {
+			title: "AWS Fundamentals Building Serverless Applications",
+			subtitle: "- Amazon Web Services, 2020",
+			logo_path: "aws_logo.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/55YCUKUJU2LW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+			alt_name: "AWS Fundamentals Building Serverless Applications",
+			color_code: "#FF9B00"
 		},
+
     {
 			title: "Practical Data Analytics",
 			subtitle: "- CHULA MOOC, 2020",
