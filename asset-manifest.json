@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.956b2c88.chunk.css",
-    "main.js": "/resume/static/js/main.94f8d614.chunk.js",
-    "main.js.map": "/resume/static/js/main.94f8d614.chunk.js.map",
+    "main.js": "/resume/static/js/main.f4b1f02a.chunk.js",
+    "main.js.map": "/resume/static/js/main.f4b1f02a.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.e551d45c.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.e551d45c.js.map",
-    "static/js/2.034a27b1.chunk.js": "/resume/static/js/2.034a27b1.chunk.js",
-    "static/js/2.034a27b1.chunk.js.map": "/resume/static/js/2.034a27b1.chunk.js.map",
+    "static/js/2.ece2f745.chunk.js": "/resume/static/js/2.ece2f745.chunk.js",
+    "static/js/2.ece2f745.chunk.js.map": "/resume/static/js/2.ece2f745.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.e016ef555fba7b7bf37d3524903ea5df.js": "/resume/precache-manifest.e016ef555fba7b7bf37d3524903ea5df.js",
+    "precache-manifest.774fb1df1dc1edd38003c58ea7ef473b.js": "/resume/precache-manifest.774fb1df1dc1edd38003c58ea7ef473b.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.956b2c88.chunk.css.map": "/resume/static/css/main.956b2c88.chunk.css.map",
     "static/media/index.css": "/resume/static/media/Montserrat-Regular.ee653992.ttf",
@@ -17,7 +17,10 @@
     "static/media/animated_ashutosh.png": "/resume/static/media/animated_ashutosh.f9969294.png",
     "static/media/animated_ashutosh2.png": "/resume/static/media/animated_ashutosh2.5b8268f3.png",
     "static/media/animated_logo.svg": "/resume/static/media/animated_logo.a633be2f.svg",
+    "static/media/aws_cer.png": "/resume/static/media/aws_cer.1f880a73.png",
+    "static/media/aws_cer.svg": "/resume/static/media/aws_cer.7d0f28c6.svg",
     "static/media/aws_logo.png": "/resume/static/media/aws_logo.da534661.png",
+    "static/media/aws_logo_smile_1200x630.png": "/resume/static/media/aws_logo_smile_1200x630.b4597ef3.png",
     "static/media/blogs_image.svg": "/resume/static/media/blogs_image.b6b12c7d.svg",
     "static/media/chula_mooc.jpg": "/resume/static/media/chula_mooc.5bd77955.jpg",
     "static/media/chula_mooc.png": "/resume/static/media/chula_mooc.6c072466.png",
@@ -70,8 +73,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e551d45c.js",
-    "static/js/2.034a27b1.chunk.js",
+    "static/js/2.ece2f745.chunk.js",
     "static/css/main.956b2c88.chunk.css",
-    "static/js/main.94f8d614.chunk.js"
+    "static/js/main.f4b1f02a.chunk.js"
   ]
 }
