@@ -504,6 +504,36 @@ const certifications = {
 				"https://www.coursera.org/account/accomplishments/records/55YCUKUJU2LW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
 			alt_name: "AWS Fundamentals Building Serverless Applications",
 			color_code: "#FF9B00"
+    },
+
+    {
+			title: "Android Mobile Certification",
+			subtitle: "- Google Skillshop, 2020",
+			logo_path: "an_mobile.png",
+			certificate_link:
+				"https://drive.google.com/file/d/1vTbbWsP08dlF_rWuhGy9zUmWUj2fmL3W/view?usp=sharing",
+			alt_name: "Android Mobile Certification",
+			color_code: "#51FFA6"
+    },
+    
+    {
+			title: "Android Enterprise Associate",
+			subtitle: "- Google Skillshop, 2020",
+			logo_path: "anen_mobile.png",
+			certificate_link:
+				"https://drive.google.com/file/d/1C-Fc_wOm16-dWBGYDI2s-WZOHORRgiW1/view?usp=sharing",
+			alt_name: "Android Enterprise Associate",
+			color_code: "#51FFA6"
+		},
+    
+    {
+			title: "HTML and CSS Basics",
+			subtitle: "- THAI MOOC, 2020",
+			logo_path: "th_mooc.png",
+			certificate_link:
+				"https://drive.google.com/file/d/1jNsFxmvdnQNq4SmeQDy-XUKpVL85ggL_/view?usp=sharing",
+			alt_name: "HTML and CSS Basics",
+			color_code: "#289AFF"
 		},
 
     {
@@ -532,7 +562,8 @@ const certifications = {
 				"https://drive.google.com/file/d/1cfKc2MCDQRNCgU-LLdbA8ox15q0Ud1ub/view?usp=sharing",
 			alt_name: "Kasetsart University - COVID English ",
 			color_code: "#2E8B57"
-		},
+    },
+  
    
 		// {
 		// 	title: "Cryptography",
