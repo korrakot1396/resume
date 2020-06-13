@@ -26,6 +26,8 @@ export default function Greeting() {
               alt="saad sitting on table"
               src={require("../../assests/images/korrakot.svg")}
             ></img>
+            
+            
           </div>
         </div>
       </div>
