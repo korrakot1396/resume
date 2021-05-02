@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85a2c6937acc5a86649cbda30d2eea97",
+    "revision": "aeacb15fb74a72b9069ccdef14929bc6",
     "url": "/resume/index.html"
   },
   {
-    "revision": "df3ae46da8cd21f40015",
-    "url": "/resume/static/css/main.956b2c88.chunk.css"
+    "revision": "e6c3d8bd295ea9f272c3",
+    "url": "/resume/static/css/main.f0f6687d.chunk.css"
   },
   {
-    "revision": "5f9ec5e3a25f5b366990",
-    "url": "/resume/static/js/2.86e4860f.chunk.js"
+    "revision": "cb2769cdb40e247d79b4",
+    "url": "/resume/static/js/2.5f12c2e8.chunk.js"
   },
   {
-    "revision": "df3ae46da8cd21f40015",
-    "url": "/resume/static/js/main.f68fea62.chunk.js"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/resume/static/js/2.5f12c2e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "800007e1647bf83f1841",
-    "url": "/resume/static/js/runtime-main.e551d45c.js"
+    "revision": "e6c3d8bd295ea9f272c3",
+    "url": "/resume/static/js/main.407e8088.chunk.js"
+  },
+  {
+    "revision": "e0f7dc91a34c7427a62d",
+    "url": "/resume/static/js/runtime-main.a54ac2ac.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/anen_mobile.a8bd4cbb.png"
   },
   {
-    "revision": "f9969294f39535635b7d119264f988cf",
-    "url": "/resume/static/media/animated_ashutosh.f9969294.png"
+    "revision": "9ce9fa893347c854d8684c66ddef16bc",
+    "url": "/resume/static/media/animated_ashutosh.9ce9fa89.png"
   },
   {
     "revision": "5b8268f3392de4c77dcfbee0de0afa19",
@@ -109,7 +113,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "dfcb7a585547c0b125d208b980d6f57f",
-    "url": "/resume/static/media/cloud_infrastructure.dfcb7a58.svg"
+    "url": "/resume/static/media/cloud_infr-2astructure.dfcb7a58.svg"
+  },
+  {
+    "revision": "3e33ed101d5276244e2f0f2564415da9",
+    "url": "/resume/static/media/cloud_infrastructure.3e33ed10.svg"
   },
   {
     "revision": "b3685be8bafcd5fe4786b39cba69a561",
@@ -216,8 +224,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/feelingProud2.4a6fd2b3.svg"
   },
   {
+    "revision": "77c19615c2323b1f92ce3f80da75a0d5",
+    "url": "/resume/static/media/fullstack.77c19615.svg"
+  },
+  {
     "revision": "589bec7d632ecff9672dc4da97897bbd",
-    "url": "/resume/static/media/fullstack.589bec7d.svg"
+    "url": "/resume/static/media/fullstack44.589bec7d.svg"
+  },
+  {
+    "revision": "0cc315387a3270feb55bdccdbe9e3999",
+    "url": "/resume/static/media/fullstackxx.0cc31538.svg"
   },
   {
     "revision": "ba18401b15f40a463898b706cc6ff08c",
@@ -340,8 +356,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/tensorflow_logo.9d54163a.png"
   },
   {
+    "revision": "423f3415c282bb2f13c3cb63a53e13ff",
+    "url": "/resume/static/media/ui_ux_design.423f3415.svg"
+  },
+  {
     "revision": "67a6a11c47edafb87cf24da66afe3dca",
-    "url": "/resume/static/media/ui_ux_design.67a6a11c.svg"
+    "url": "/resume/static/media/ui_ux_design_2.67a6a11c.svg"
   },
   {
     "revision": "b818be07e9674ce93d91db428af0c874",
