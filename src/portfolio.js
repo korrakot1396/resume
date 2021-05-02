@@ -16,7 +16,7 @@ const greeting = {
 	subTitle:
 		"I am a diligent and ready to learn new things and I am currently in my fourth year of studying Computer Science at Kasetsart University Bangkhen Campus.",
 	resumeLink:
-		"https://drive.google.com/file/d/116VmcgHtvdgUUOZdHMhxlzdsPc9nq_NV/view?usp=sharing"
+		"https://drive.google.com/drive/folders/1Tk9VAUrvNwx-zrRDl2gpVe2f0wWL3JKn?usp=sharing"
 };
 
 const socialMediaLinks = {

@@ -21,14 +21,14 @@ const blogSection = {
 const addressSection = {
 	title: "Address",
 	subtitle:
-		"Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+		"Bangkhen, Bangkok, Thailand",
 	avatar_image_path: "address_image.svg",
 	location_map_link: ""
 };
 
 const phoneSection = {
     title: "Phone Number",
-    subtitle: "+91 8320758513"
+    subtitle: "0932813460"
 }
 
 const ContactData = {
