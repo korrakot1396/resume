@@ -52,7 +52,7 @@ const experience = {
 					duration: "Dec 2020 - Apr 2021",
 					location: "Bangkok, Thailand",
 					description:
-						"I have worked on project of tournament esports freefire. There were one objectives: (1) To build a organizing tournament esports freefire. Esports Freefire System using ReactJS,PHP(Laravel framework),Docker,Nginx,CDN,Mysql.",
+						"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
 					color: "#ee3c26"
 				},
 				// {
@@ -72,17 +72,17 @@ const experience = {
 		{
 			title: "Volunteerships",
 			experiences: [
-				// {
-				// 	title: "Google Explore ML Facilitator",
-				// 	company: "Google",
-				// 	company_url: "https://about.google/",
-				// 	logo_path: "google_logo.png",
-				// 	duration: "June 2019 - PRESENT",
-				// 	location: "Hyderabad, Telangana",
-				// 	description:
-				// 		"Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-				// 	color: "#4285F4"
-				// },
+				{
+					title: "Teacher Assistant (Python Programming)",
+					company: "Kasetsart University",
+					company_url: "https://www.ku.ac.th/th",
+					logo_path: "kasetsart_logo.png",
+					duration: "Jul 2020 - Oct 2020",
+					location: "Bangkok, Thailand",
+					description:
+						"I'm teaching in python programming, in charge of teaching python language, and also in check student names in classroom and test students. I gained more knowledge as a teaching assistant, it gave me practice python language and trained me to be a good speaker and explain. ",
+					color: "#55EE94"
+				},
 				// {
 				// 	title: "Microsoft Student Partner",
 				// 	company: "Microsoft",

@@ -14,7 +14,7 @@ const greeting = {
 	// subTitle:
 	//   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
 	subTitle:
-		"I am a diligent and ready to learn new things and I am currently in my fourth year of studying Computer Science at Kasetsart University Bangkhen Campus.",
+		"I graduated from Kasetsart University (Bangkhen Campus). Where I studied in Computer Science. I ready to learn new things. My English is not be good. But I'm trying improve it.",
 	resumeLink:
 		"https://drive.google.com/drive/folders/1Tk9VAUrvNwx-zrRDl2gpVe2f0wWL3JKn?usp=sharing"
 };
