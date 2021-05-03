@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.f0f6687d.chunk.css",
-    "main.js": "/resume/static/js/main.407e8088.chunk.js",
-    "main.js.map": "/resume/static/js/main.407e8088.chunk.js.map",
+    "main.js": "/resume/static/js/main.56f7775a.chunk.js",
+    "main.js.map": "/resume/static/js/main.56f7775a.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.a54ac2ac.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.a54ac2ac.js.map",
-    "static/js/2.5f12c2e8.chunk.js": "/resume/static/js/2.5f12c2e8.chunk.js",
-    "static/js/2.5f12c2e8.chunk.js.map": "/resume/static/js/2.5f12c2e8.chunk.js.map",
+    "static/js/2.418a2c68.chunk.js": "/resume/static/js/2.418a2c68.chunk.js",
+    "static/js/2.418a2c68.chunk.js.map": "/resume/static/js/2.418a2c68.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.7c2bde1a8b8723e46897e6a2bbac177b.js": "/resume/precache-manifest.7c2bde1a8b8723e46897e6a2bbac177b.js",
+    "precache-manifest.3b29ef14dffb880c7c94ba92b2d86819.js": "/resume/precache-manifest.3b29ef14dffb880c7c94ba92b2d86819.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.f0f6687d.chunk.css.map": "/resume/static/css/main.f0f6687d.chunk.css.map",
-    "static/js/2.5f12c2e8.chunk.js.LICENSE.txt": "/resume/static/js/2.5f12c2e8.chunk.js.LICENSE.txt",
+    "static/js/2.418a2c68.chunk.js.LICENSE.txt": "/resume/static/js/2.418a2c68.chunk.js.LICENSE.txt",
     "static/media/index.css": "/resume/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Mahidol_standard_ENG2-01.jpg": "/resume/static/media/Mahidol_standard_ENG2-01.941ee23e.jpg",
     "static/media/address_image.svg": "/resume/static/media/address_image.3b021f8f.svg",
@@ -54,6 +54,7 @@
     "static/media/johns_hopkins1_logo.png": "/resume/static/media/johns_hopkins1_logo.d43ac1d7.png",
     "static/media/johns_hopkins_logo.png": "/resume/static/media/johns_hopkins_logo.d4b5110a.png",
     "static/media/jsFramework.svg": "/resume/static/media/jsFramework.b05ae5b5.svg",
+    "static/media/kasetsart_logo.png": "/resume/static/media/kasetsart_logo.fbffbc8d.png",
     "static/media/korrakot.svg": "/resume/static/media/korrakot.fc9f48f7.svg",
     "static/media/kotlin.png": "/resume/static/media/kotlin.8d8be270.png",
     "static/media/ku_logo.png": "/resume/static/media/ku_logo.4e65dfd5.png",
@@ -81,8 +82,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a54ac2ac.js",
-    "static/js/2.5f12c2e8.chunk.js",
+    "static/js/2.418a2c68.chunk.js",
     "static/css/main.f0f6687d.chunk.css",
-    "static/js/main.407e8088.chunk.js"
+    "static/js/main.56f7775a.chunk.js"
   ]
 }
