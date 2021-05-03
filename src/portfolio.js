@@ -22,9 +22,9 @@ const greeting = {
 const socialMediaLinks = {
 	/* Your Social Media Link */
 	github: "https://github.com/korrakot1396",
-	linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+	linkedin: "https://www.linkedin.com/in/korrakot-triwichian-8bb4551b8/",
 	gmail: "korrakot.tr@gmail.com",
-	gitlab: "https://gitlab.com/ashutoshhathidara98",
+	gitlab: "https://gitlab.com/korrakot.tr",
 	facebook: "https://www.facebook.com/freetoplay.love",
 	twitter: "https://twitter.com/ashutosh_1919",
   instagram: "https://www.instagram.com/___korrakot___/",
@@ -38,7 +38,7 @@ const skills = {
       title: "Full Stack Development",
       imagePath: "fullstack.svg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
+        "⚡ Building resposive website frontend using React-Redux",
         "⚡ Developing mobile applications using Flutter, Java and solo android apps using Kotlin",
         "⚡ Creating application backend in Node, Express, Php Laravel"
       ],
@@ -126,6 +126,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
             color: "#02569B"
+          }
+        },
+        {
+          skillName: "Golang",
+          fontAwesomeClassname: "simple-icons:go",
+          style: {
+            color: "#36E0C6"
           }
         }
       ]

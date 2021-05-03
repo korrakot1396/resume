@@ -14,9 +14,9 @@ class LogoLoader extends React.Component {
  
 
 <div class="fakeScreen">
-  <p class="line1">&#91;&nbsp;&ldquo;I'm Korrakot Triwichian.&rdquo;,<span class="cursor1">_</span></p>
-  <p class="line2">&nbsp;&nbsp;&ldquo;I'm a Software Developer.&rdquo;,<span class="cursor2">_</span></p>
-  <p class="line3">&nbsp;&nbsp;&ldquo;Welcome My Website.&rdquo;&nbsp;&#93;<span class="cursor2">_</span></p>
+  <p class="line1">&#91;&nbsp;&ldquo;I am Korrakot Triwichian.&rdquo;,<span class="cursor1">_</span></p>
+  <p class="line2">&nbsp;&nbsp;&ldquo;I am Full-Stack Web Developer.&rdquo;,<span class="cursor2">_</span></p>
+  <p class="line3">&nbsp;&nbsp;&ldquo;Welcome to My Website.&rdquo;&nbsp;&#93;<span class="cursor2">_</span></p>
   <p class="line4"><span class="cursor4">_</span></p>
 </div>
 </div>

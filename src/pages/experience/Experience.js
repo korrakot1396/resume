@@ -51,8 +51,8 @@ const experience = {
 					logo_path: "delhivery_logo.png",
 					duration: "Dec 2020 - Apr 2021",
 					location: "Bangkok, Thailand",
-					description:
-						"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
+					// description:
+					// 	"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
 					color: "#ee3c26"
 				},
 				// {
@@ -79,21 +79,21 @@ const experience = {
 					logo_path: "kasetsart_logo.png",
 					duration: "Jul 2020 - Oct 2020",
 					location: "Bangkok, Thailand",
-					description:
-						"I'm teaching in python programming, in charge of teaching python language, and also in check student names in classroom and test students. I gained more knowledge as a teaching assistant, it gave me practice python language and trained me to be a good speaker and explain. ",
+					// description:
+					// 	"I'm teaching in python programming, in charge of teaching python language, and also in check student names in classroom and test students. I gained more knowledge as a teaching assistant, it gave me practice python language and trained me to be a good speaker and explain. ",
 					color: "#55EE94"
 				},
-				// {
-				// 	title: "Microsoft Student Partner",
-				// 	company: "Microsoft",
-				// 	company_url: "https://www.microsoft.com/",
-				// 	logo_path: "microsoft_logo.png",
-				// 	duration: "Aug 2019 - PRESENT",
-				// 	location: "Hyderabad, Telangana",
-				// 	description:
-				// 		"Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-				// 	color: "#D83B01"
-				// },
+				{
+					title: "Teacher Assistant (WebTech)",
+					company: "Kasetsart University",
+					company_url: "https://www.ku.ac.th/th",
+					logo_path: "kasetsart_logo.png",
+					duration: "Jul 2020 - Oct 2020",
+					location: "Bangkok, Thailand",
+					// description:
+					// 	"Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+					color: "#55EE94"
+				},
 				// {
 				// 	title: "Mozilla Campus Captain",
 				// 	company: "Mozilla",
