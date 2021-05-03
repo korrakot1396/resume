@@ -341,7 +341,7 @@ const degrees = {
       subtitle: "B.Tech. in Computer Science",
       logo_path: "ku_logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "2017 - 2021",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like Intro Comsci, Data Structure, Algorithms, DBMS, OS, Java etc.",
         "⚡ I like studied subjects Software Engineer, Mobile Application, Web Technology & Web Services, Cloud Computing etc.",
