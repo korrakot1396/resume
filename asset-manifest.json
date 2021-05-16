@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.f0f6687d.chunk.css",
-    "main.js": "/resume/static/js/main.43de9784.chunk.js",
-    "main.js.map": "/resume/static/js/main.43de9784.chunk.js.map",
+    "main.js": "/resume/static/js/main.fe414ed6.chunk.js",
+    "main.js.map": "/resume/static/js/main.fe414ed6.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.a54ac2ac.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.a54ac2ac.js.map",
-    "static/js/2.85999e72.chunk.js": "/resume/static/js/2.85999e72.chunk.js",
-    "static/js/2.85999e72.chunk.js.map": "/resume/static/js/2.85999e72.chunk.js.map",
+    "static/js/2.d0378f2b.chunk.js": "/resume/static/js/2.d0378f2b.chunk.js",
+    "static/js/2.d0378f2b.chunk.js.map": "/resume/static/js/2.d0378f2b.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.d3b404dacb9984fdb2b6a6176bd6613f.js": "/resume/precache-manifest.d3b404dacb9984fdb2b6a6176bd6613f.js",
+    "precache-manifest.95c3060636fc597e166cafc07c33e43b.js": "/resume/precache-manifest.95c3060636fc597e166cafc07c33e43b.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.f0f6687d.chunk.css.map": "/resume/static/css/main.f0f6687d.chunk.css.map",
-    "static/js/2.85999e72.chunk.js.LICENSE.txt": "/resume/static/js/2.85999e72.chunk.js.LICENSE.txt",
+    "static/js/2.d0378f2b.chunk.js.LICENSE.txt": "/resume/static/js/2.d0378f2b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/resume/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Mahidol_standard_ENG2-01.jpg": "/resume/static/media/Mahidol_standard_ENG2-01.941ee23e.jpg",
     "static/media/address_image.svg": "/resume/static/media/address_image.3b021f8f.svg",
@@ -83,8 +83,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a54ac2ac.js",
-    "static/js/2.85999e72.chunk.js",
+    "static/js/2.d0378f2b.chunk.js",
     "static/css/main.f0f6687d.chunk.css",
-    "static/js/main.43de9784.chunk.js"
+    "static/js/main.fe414ed6.chunk.js"
   ]
 }
