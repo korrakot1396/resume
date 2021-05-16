@@ -8,7 +8,7 @@ const theme = {
 
 const greeting = {
 	/* Your Summary And Greeting Section */
-	//title: "Hi all 👋 I'm Saad",
+	//title: "Hi all 👋 I'm Korrakot",
 	title: "Korrakot Triwichian",
 	nickname: "Suea or Tiger",
 	// subTitle:
