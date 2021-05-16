@@ -241,7 +241,15 @@ const skills = {
           style: {
             color: "#000000"
           }
-        }
+        },
+        {
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#31A8FF"
+          }
+        },
+     
       ]
     },
     {
