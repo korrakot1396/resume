@@ -8,11 +8,8 @@ const theme = {
 
 const greeting = {
 	/* Your Summary And Greeting Section */
-	//title: "Hi all 👋 I'm Korrakot",
 	title: "Korrakot Triwichian",
 	nickname: "Suea or Tiger",
-	// subTitle:
-	//   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
 	subTitle:
 		"I graduated from Kasetsart University (Bangkhen Campus). Where I studied in Computer Science. I ready to learn new things. My English is not be good. But I'm trying improve it.",
 	resumeLink:
