@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.f0f6687d.chunk.css",
-    "main.js": "/resume/static/js/main.93dd9f9e.chunk.js",
-    "main.js.map": "/resume/static/js/main.93dd9f9e.chunk.js.map",
+    "main.js": "/resume/static/js/main.2414e9da.chunk.js",
+    "main.js.map": "/resume/static/js/main.2414e9da.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.a54ac2ac.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.a54ac2ac.js.map",
-    "static/js/2.418a2c68.chunk.js": "/resume/static/js/2.418a2c68.chunk.js",
-    "static/js/2.418a2c68.chunk.js.map": "/resume/static/js/2.418a2c68.chunk.js.map",
+    "static/js/2.85999e72.chunk.js": "/resume/static/js/2.85999e72.chunk.js",
+    "static/js/2.85999e72.chunk.js.map": "/resume/static/js/2.85999e72.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.49de2601bc0c57e0038d9f1be9e9797e.js": "/resume/precache-manifest.49de2601bc0c57e0038d9f1be9e9797e.js",
+    "precache-manifest.aa5ea5b4a03d699056635e045a72d796.js": "/resume/precache-manifest.aa5ea5b4a03d699056635e045a72d796.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.f0f6687d.chunk.css.map": "/resume/static/css/main.f0f6687d.chunk.css.map",
-    "static/js/2.418a2c68.chunk.js.LICENSE.txt": "/resume/static/js/2.418a2c68.chunk.js.LICENSE.txt",
+    "static/js/2.85999e72.chunk.js.LICENSE.txt": "/resume/static/js/2.85999e72.chunk.js.LICENSE.txt",
     "static/media/index.css": "/resume/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Mahidol_standard_ENG2-01.jpg": "/resume/static/media/Mahidol_standard_ENG2-01.941ee23e.jpg",
     "static/media/address_image.svg": "/resume/static/media/address_image.3b021f8f.svg",
@@ -35,7 +35,8 @@
     "static/media/deeplearning_ai_logo.png": "/resume/static/media/deeplearning_ai_logo.7a9b2eb0.png",
     "static/media/developerActivity.svg": "/resume/static/media/developerActivity.59389695.svg",
     "static/media/dsc_logo.png": "/resume/static/media/dsc_logo.f65ee6f6.png",
-    "static/media/education.svg": "/resume/static/media/education.caed892b.svg",
+    "static/media/education.svg": "/resume/static/media/education.997c3604.svg",
+    "static/media/education1.svg": "/resume/static/media/education1.caed892b.svg",
     "static/media/experience.svg": "/resume/static/media/experience.85d6957f.svg",
     "static/media/all.css": "/resume/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/feelingProud.svg": "/resume/static/media/feelingProud.08131860.svg",
@@ -82,8 +83,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a54ac2ac.js",
-    "static/js/2.418a2c68.chunk.js",
+    "static/js/2.85999e72.chunk.js",
     "static/css/main.f0f6687d.chunk.css",
-    "static/js/main.93dd9f9e.chunk.js"
+    "static/js/main.2414e9da.chunk.js"
   ]
 }
