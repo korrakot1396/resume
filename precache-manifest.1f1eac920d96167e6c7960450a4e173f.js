@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae0bf21e0bedc88e2631246251e8445a",
+    "revision": "aa838a3d0198d2ee974d51e106927d04",
     "url": "/resume/index.html"
   },
   {
-    "revision": "312823c773d02aa6dcc6",
+    "revision": "3cd549a4e1a12e3fdf90",
     "url": "/resume/static/css/main.f0f6687d.chunk.css"
   },
   {
-    "revision": "baa7d5414166b3bb7976",
-    "url": "/resume/static/js/2.d0378f2b.chunk.js"
+    "revision": "d42afdc3ab392dd8da78",
+    "url": "/resume/static/js/2.5da6ade0.chunk.js"
   },
   {
     "revision": "0d389a999de6380f44ce34649054f5a2",
-    "url": "/resume/static/js/2.d0378f2b.chunk.js.LICENSE.txt"
+    "url": "/resume/static/js/2.5da6ade0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "312823c773d02aa6dcc6",
-    "url": "/resume/static/js/main.fe414ed6.chunk.js"
+    "revision": "3cd549a4e1a12e3fdf90",
+    "url": "/resume/static/js/main.1deaefd5.chunk.js"
   },
   {
     "revision": "e0f7dc91a34c7427a62d",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/resume/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "cc7e8c199d2d0c2885b69b669a641f49",
+    "url": "/resume/static/media/D445E69.cc7e8c19.png"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -144,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/dsc_logo.f65ee6f6.png"
   },
   {
-    "revision": "997c3604168196371d86a60d70434b98",
-    "url": "/resume/static/media/education.997c3604.svg"
+    "revision": "54c00998b12842040a733ec984b8ae70",
+    "url": "/resume/static/media/education.54c00998.svg"
   },
   {
     "revision": "caed892b2a0b817a8e275ae29638edaf",
@@ -336,6 +340,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/programmer.c1a95f73.svg"
   },
   {
+    "revision": "0d74cef17fd7897565324be5afe63b5a",
+    "url": "/resume/static/media/project_network.0d74cef1.png"
+  },
+  {
     "revision": "f7964c6bf45e77547f1e5aae1e1dede0",
     "url": "/resume/static/media/projects_image.f7964c6b.svg"
   },
@@ -362,6 +370,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9d54163a03f5dd7d02e64bf0d59b5bb6",
     "url": "/resume/static/media/tensorflow_logo.9d54163a.png"
+  },
+  {
+    "revision": "1b9532eb17538dde1a31c75ab713976d",
+    "url": "/resume/static/media/tspace.1b9532eb.png"
   },
   {
     "revision": "423f3415c282bb2f13c3cb63a53e13ff",
