@@ -302,7 +302,15 @@ const competitiveSites = {
       style: {
         color: "#2EC866"
       },
-      profileLink: ""
+      profileLink: "https://www.hackerrank.com/korrakot_tr"
+    },
+    {
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#E56D29"
+      },
+      profileLink: "https://leetcode.com/user4477kY/"
     },
     {
       siteName: "Codechef",
@@ -310,32 +318,32 @@ const competitiveSites = {
       style: {
         color: "#5B4638"
       },
-      profileLink: ""
+      profileLink: "https://www.codechef.com/users/korrakot_1396"
     },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB"
-      },
-      profileLink: ""
-    },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB"
+    //   },
+    //   profileLink: ""
+    // },
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
       style: {
         color: "#323754"
       },
-      profileLink: ""
+      profileLink: "https://www.hackerearth.com/@korrakot.tr"
     },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF"
-      },
-      profileLink: ""
-    }
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF"
+    //   },
+    //   profileLink: ""
+    // }
   ]
 }
 
@@ -359,6 +367,30 @@ const degrees = {
 
 const certifications = {
 	certifications: [
+    {
+			title: "React (Basic) Certificate",
+			subtitle: "- HackerRank, 2021",
+			logo_path: "hackerrank.png",
+			certificate_link: "https://www.hackerrank.com/certificates/51997dcc168c",
+			alt_name: "React (Basic) Certificate",
+			color_code: "#282828"
+		},
+    {
+			title: "JavaScript (Basic) Certificate",
+			subtitle: "- HackerRank, 2021",
+			logo_path: "hackerrank.png",
+			certificate_link: "https://www.hackerrank.com/certificates/9442c45161c2",
+			alt_name: "JavaScript (Basic) Certificate",
+			color_code: "#282828"
+		},
+    {
+			title: "Python (Basic) Certificate",
+			subtitle: "- HackerRank, 2021",
+			logo_path: "hackerrank.png",
+			certificate_link: "https://www.hackerrank.com/certificates/38018b56d371",
+			alt_name: "Python (Basic) Certificate",
+			color_code: "#282828"
+		},
 		{
 			title: "AWS Fundamentals",
 			subtitle: "- Amazon Web Services, 2020",
@@ -385,23 +417,24 @@ const certifications = {
 			alt_name: "Fullstack Development - HKUST ",
 			color_code: "#2A73CC"
 		},
-		{
-			title: "Technical Support Fundamentals",
-			subtitle: "- Google, 2020",
-			logo_path: "google_logo.png",
-			certificate_link:
-				"",
-			alt_name: "Technical Support Fundamentals",
-			color_code: "#87EEC6"
-		},
-    		{
-			title: "Responsive Website Basics: Code with HTML, CSS, and JavaScript",
-			subtitle: "-  University of London, 2020",
-			logo_path: "uni_london2_logo.png",
-			certificate_link:
-				"https://coursera.org/share/bce9487382ec206352c8f54d38f7b51b",
-			alt_name: "Responsive Website Basics: Code with HTML, CSS, and JavaScript",
-			color_code: "#CD0000"
+		// {
+		// 	title: "Technical Support Fundamentals",
+		// 	subtitle: "- Google, 2020",
+		// 	logo_path: "google_logo.png",
+		// 	certificate_link:
+		// 		"",
+		// 	alt_name: "Technical Support Fundamentals",
+		// 	color_code: "#87EEC6"
+		// },
+   
+    {
+      title: "Responsive Website Basics: Code with HTML, CSS, and JavaScript",
+      subtitle: "-  University of London, 2020",
+      logo_path: "uni_london2_logo.png",
+      certificate_link:
+        "https://coursera.org/share/bce9487382ec206352c8f54d38f7b51b",
+      alt_name: "Responsive Website Basics: Code with HTML, CSS, and JavaScript",
+      color_code: "#CD0000"
     },
 		{
 			title: "HTML, CSS, and Javascript for Web Developers",
@@ -421,52 +454,52 @@ const certifications = {
 			alt_name: "Kotlin for Java Developers",
 			color_code: "#323232"
     },
-    {
-			title: "Getting Started with Go",
-			subtitle: "- University of California, Irvine, 2020",
-			logo_path: "golang_logo.png",
-			certificate_link:
-				"",
-			alt_name: "Getting Started with Go",
-			color_code: "#66F8F0"
-    },
-    {
-			title: "Intro to TensorFlow",
-			subtitle: "- Google Cloud, 2020",
-			logo_path: "tensorflow_logo.png",
-			certificate_link:
-				"",
-			alt_name: "Intro to TensorFlow",
-			color_code: "#FAFABE"
-    },
+    // {
+		// 	title: "Getting Started with Go",
+		// 	subtitle: "- University of California, Irvine, 2020",
+		// 	logo_path: "golang_logo.png",
+		// 	certificate_link:
+		// 		"",
+		// 	alt_name: "Getting Started with Go",
+		// 	color_code: "#66F8F0"
+    // },
+    // {
+		// 	title: "Intro to TensorFlow",
+		// 	subtitle: "- Google Cloud, 2020",
+		// 	logo_path: "tensorflow_logo.png",
+		// 	certificate_link:
+		// 		"",
+		// 	alt_name: "Intro to TensorFlow",
+		// 	color_code: "#FAFABE"
+    // },
 
-    {
-			title: "Mastering the Software Engineering Interview",
-			subtitle: "- University of San Diego, 2020",
-			logo_path: "sandiego_logo.png",
-			certificate_link:
-				"",
-			alt_name: "Mastering the Software Engineering Interview",
-			color_code: "#1E3269"
-		},
-		{
-			title: "Building Database Applications in PHP",
-			subtitle: "- University of Michigan, 2020",
-			logo_path: "michigan_logo.png",
-			certificate_link:
-				"",
-			alt_name: "Building Database Applications in PHP",
-			color_code: "#1E3269"
-    },
-    {
-			title: "Network Security & Database Vulnerabilities",
-			subtitle: "- IBM, 2020",
-			logo_path: "ibm_logo.png",
-			certificate_link:
-				"",
-			alt_name: "Network Security & Database Vulnerabilities",
-			color_code: "#dcdcdc"
-    },
+    // {
+		// 	title: "Mastering the Software Engineering Interview",
+		// 	subtitle: "- University of San Diego, 2020",
+		// 	logo_path: "sandiego_logo.png",
+		// 	certificate_link:
+		// 		"",
+		// 	alt_name: "Mastering the Software Engineering Interview",
+		// 	color_code: "#1E3269"
+		// },
+		// {
+		// 	title: "Building Database Applications in PHP",
+		// 	subtitle: "- University of Michigan, 2020",
+		// 	logo_path: "michigan_logo.png",
+		// 	certificate_link:
+		// 		"",
+		// 	alt_name: "Building Database Applications in PHP",
+		// 	color_code: "#1E3269"
+    // },
+    // {
+		// 	title: "Network Security & Database Vulnerabilities",
+		// 	subtitle: "- IBM, 2020",
+		// 	logo_path: "ibm_logo.png",
+		// 	certificate_link:
+		// 		"",
+		// 	alt_name: "Network Security & Database Vulnerabilities",
+		// 	color_code: "#dcdcdc"
+    // },
     
     {
 			title: "Developing AI Applications on Azure",
@@ -546,6 +579,16 @@ const certifications = {
 				"https://drive.google.com/file/d/1jNsFxmvdnQNq4SmeQDy-XUKpVL85ggL_/view?usp=sharing",
 			alt_name: "HTML and CSS Basics",
 			color_code: "#289AFF"
+		},
+
+    {
+			title: "Introduction to Bash Shell Scripting",
+			subtitle: "- Coursera Project Network, 2020",
+			logo_path: "project_network.png",
+			certificate_link:
+				"https://coursera.org/share/8d4b2e852de268720e6ac7c53f07e705",
+			alt_name: "Introduction to Bash Shell Scripting",
+			color_code: "#FFFFFF"
 		},
 
     {
