@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.f0f6687d.chunk.css",
-    "main.js": "/resume/static/js/main.1deaefd5.chunk.js",
-    "main.js.map": "/resume/static/js/main.1deaefd5.chunk.js.map",
+    "main.js": "/resume/static/js/main.e45330c2.chunk.js",
+    "main.js.map": "/resume/static/js/main.e45330c2.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.a54ac2ac.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.a54ac2ac.js.map",
-    "static/js/2.5da6ade0.chunk.js": "/resume/static/js/2.5da6ade0.chunk.js",
-    "static/js/2.5da6ade0.chunk.js.map": "/resume/static/js/2.5da6ade0.chunk.js.map",
+    "static/js/2.a94a31ba.chunk.js": "/resume/static/js/2.a94a31ba.chunk.js",
+    "static/js/2.a94a31ba.chunk.js.map": "/resume/static/js/2.a94a31ba.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.1f1eac920d96167e6c7960450a4e173f.js": "/resume/precache-manifest.1f1eac920d96167e6c7960450a4e173f.js",
+    "precache-manifest.deeceace6f2f6bd50912c5ef1b120437.js": "/resume/precache-manifest.deeceace6f2f6bd50912c5ef1b120437.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.f0f6687d.chunk.css.map": "/resume/static/css/main.f0f6687d.chunk.css.map",
-    "static/js/2.5da6ade0.chunk.js.LICENSE.txt": "/resume/static/js/2.5da6ade0.chunk.js.LICENSE.txt",
+    "static/js/2.a94a31ba.chunk.js.LICENSE.txt": "/resume/static/js/2.a94a31ba.chunk.js.LICENSE.txt",
     "static/media/index.css": "/resume/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/D445E69.png": "/resume/static/media/D445E69.cc7e8c19.png",
     "static/media/Mahidol_standard_ENG2-01.jpg": "/resume/static/media/Mahidol_standard_ENG2-01.941ee23e.jpg",
@@ -38,7 +38,8 @@
     "static/media/dsc_logo.png": "/resume/static/media/dsc_logo.f65ee6f6.png",
     "static/media/education.svg": "/resume/static/media/education.54c00998.svg",
     "static/media/education1.svg": "/resume/static/media/education1.caed892b.svg",
-    "static/media/experience.svg": "/resume/static/media/experience.85d6957f.svg",
+    "static/media/experience.svg": "/resume/static/media/experience.582f0bb6.svg",
+    "static/media/experience2.svg": "/resume/static/media/experience2.85d6957f.svg",
     "static/media/all.css": "/resume/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/feelingProud.svg": "/resume/static/media/feelingProud.08131860.svg",
     "static/media/feelingProud1.svg": "/resume/static/media/feelingProud1.a73310ea.svg",
@@ -86,8 +87,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a54ac2ac.js",
-    "static/js/2.5da6ade0.chunk.js",
+    "static/js/2.a94a31ba.chunk.js",
     "static/css/main.f0f6687d.chunk.css",
-    "static/js/main.1deaefd5.chunk.js"
+    "static/js/main.e45330c2.chunk.js"
   ]
 }
