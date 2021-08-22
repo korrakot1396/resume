@@ -353,7 +353,7 @@ const degrees = {
       title: "Kasetsart University Bangkhen Campus",
       subtitle: "B.Tech. in Computer Science",
       logo_path: "ku_logo.png",
-      alt_name: "IIITDM Kurnool",
+      alt_name: "Ku_logo",
       duration: "2017 - 2021",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like Intro Comsci, Data Structure, Algorithms, DBMS, OS, Java etc.",

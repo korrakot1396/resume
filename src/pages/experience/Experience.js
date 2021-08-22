@@ -18,11 +18,23 @@ const experience = {
 			experiences: [
 
 				{
+					title: "Frontend Developer",
+					company: "Accenture Solutions.",
+					company_url: "https://www.accenture.com/th-en/",
+					logo_path: "accenture_logo.png",
+					duration: "Ang 2021 - Present",
+					location: "Bangkok, Thailand",
+					// description:
+					// 	"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
+					color: "#9400D3"
+				},
+
+				{
 					title: "Backend Developer",
 					company: "TSPACE Digital.",
 					company_url: "https://www.tspacedigital.com/",
 					logo_path: "tspace_logo.png",
-					duration: "Jun 2020 - Present",
+					duration: "Jun 2021 - Ang 2021 (3 Month)",
 					location: "Bangkok, Thailand",
 					// description:
 					// 	"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
