@@ -9,7 +9,7 @@ function App() {
        <Helmet>
                 <meta charSet="utf-8" />
                 <title>Korrakot's Portfolio</title>
-                <link rel="canonical" href="https://logobly.com/wp-content/uploads/001-rocket-1.png" />
+                <link rel="canonical" href="https://drive.google.com/file/d/1Exso7XAlIcOIpJWvfLU8UaCbbB6rwqla/view?usp=sharing" />
             </Helmet>
       <Main />
     </div>
