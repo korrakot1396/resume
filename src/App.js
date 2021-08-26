@@ -8,7 +8,7 @@ function App() {
     <div>
        <Helmet>
                 <meta charSet="utf-8" />
-                <title>Korrakot Resume</title>
+                <title>Korrakot's Portfolio</title>
                 <link rel="canonical" href="https://raw.githubusercontent.com/korrakot1396/resume/master/public/favicon.png" />
             </Helmet>
       <Main />
