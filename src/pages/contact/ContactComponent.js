@@ -21,7 +21,7 @@ const blogSection = {
 const addressSection = {
 	title: "Address",
 	subtitle:
-		"Bangkhen, Bangkok, Thailand",
+		"Bangkok, Thailand",
 	avatar_image_path: "address_image.svg",
 	location_map_link: ""
 };
