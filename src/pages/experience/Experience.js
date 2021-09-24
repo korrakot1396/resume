@@ -18,7 +18,7 @@ const experience = {
 			experiences: [
 
 				{
-					title: "Frontend Developer",
+					title: "Software Engineer",
 					company: "Accenture Solutions.",
 					company_url: "https://www.accenture.com/th-en/",
 					logo_path: "accenture_logo.png",
@@ -34,7 +34,7 @@ const experience = {
 					company: "TSPACE Digital.",
 					company_url: "https://www.tspacedigital.com/",
 					logo_path: "tspace_logo.png",
-					duration: "Jun 2021 - Ang 2021 (3 Month)",
+					duration: "Jun 2021 - Ang 2021 (4 Month)",
 					location: "Bangkok, Thailand",
 					// description:
 					// 	"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",

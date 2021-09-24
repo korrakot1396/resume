@@ -18,6 +18,11 @@ const blogSection = {
 	avatar_image_path: "blogs_image.svg"
 };
 
+const positionSection = {
+    title: "Position",
+    subtitle: "Sotfware Engineer"
+}
+
 const addressSection = {
 	title: "Address",
 	subtitle:
@@ -29,6 +34,11 @@ const addressSection = {
 const phoneSection = {
     title: "Phone Number",
     subtitle: "0932813460"
+}
+
+const fullnameSection = {
+    title: "Fullname",
+    subtitle: "Korrakot Triwichian"
 }
 
 const ContactData = {
@@ -103,6 +113,18 @@ class Contact extends Component {
 										/>
 									</div>
 									<div className="address-heading-text-div">
+									<h1 className="address-heading-text">
+											{fullnameSection["title"]}
+										</h1>
+										<p className="contact-header-detail-text subTitle">
+											{fullnameSection["subtitle"]}
+										</p>
+									<h1 className="address-heading-text">
+											{positionSection["title"]}
+										</h1>
+										<p className="contact-header-detail-text subTitle">
+											{positionSection["subtitle"]}
+										</p>
 										<h1 className="address-heading-text">
 											{addressSection["title"]}
 										</h1>
@@ -115,6 +137,7 @@ class Contact extends Component {
 										<p className="contact-header-detail-text subTitle">
 											{phoneSection["subtitle"]}
 										</p>
+										
 										<div className="address-btn-div">
 											<Button
 												text="Visit on Google Maps"
