@@ -17,7 +17,7 @@ class Education extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                <img src={require("../../assests/images/education.svg")} alt="" />
+                <img src={require("../../assests/images/education.svg")} alt="img-education" />
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text">Education</h1>

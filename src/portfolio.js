@@ -36,8 +36,8 @@ const skills = {
       imagePath: "fullstack.svg",
       skills: [
         "⚡ Building resposive website frontend using React-Redux",
-        "⚡ Developing mobile applications using Flutter, Java and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express, Php Laravel"
+        "⚡ Developing mobile applications using Flutter, Java and native android apps using Kotlin",
+        "⚡ Creating application backend in Node(Express), PHP(Laravel), Java and Golang"
       ],
       softwareSkills: [
         {
@@ -352,7 +352,7 @@ const degrees = {
     {
       title: "Kasetsart University Bangkhen Campus",
       subtitle: "B.Tech. in Computer Science",
-      logo_path: "ku_logo.png",
+      logo_path: "kasetsart_logo.png",
       alt_name: "Ku_logo",
       duration: "2017 - 2021",
       descriptions: [
@@ -367,6 +367,14 @@ const degrees = {
 
 const certifications = {
 	certifications: [
+    {
+			title: "The Complete Web Developer in 2022: Zero to Mastery",
+			subtitle: "- Udemy, 2021",
+			logo_path: "udemy.png",
+			certificate_link: "https://drive.google.com/file/d/1oRsciVdtJeGMhpkOZgg_tzLrMijuiYRl/view?usp=sharing",
+			alt_name: "The Complete Web Developer in 2022: Zero to Mastery",
+			color_code: "#ffffff"
+		},
     {
 			title: "React (Basic) Certificate",
 			subtitle: "- HackerRank, 2021",

@@ -26,8 +26,8 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
 }
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
