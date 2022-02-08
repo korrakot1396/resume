@@ -35,9 +35,9 @@ const skills = {
       title: "Full Stack Development",
       imagePath: "fullstack.svg",
       skills: [
-        "⚡ Building resposive website frontend using React-Redux",
-        "⚡ Developing mobile applications using Flutter, Java and native android apps using Kotlin",
-        "⚡ Creating application backend in Node(Express), PHP(Laravel), Java and Golang"
+        "⚡ Building resposive website frontend using React-Redux, VueJS, Angular",
+        "⚡ Developing mobile applications using Flutter, React-Native for cross-platform and Java, Kotlin for Native androind",
+        "⚡ Creating APIs for backend in Node(Express), PHP(Laravel), Java(Spring Boot, Webflux) and Golang(Gin, Echo)"
       ],
       softwareSkills: [
         {
@@ -63,17 +63,10 @@ const skills = {
           }
         },
         {
-          skillName: "Php",
-          fontAwesomeClassname: "simple-icons:php",
+          skillName: "AngularJS",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
-            color: "#7B68EE"
-          }
-        },
-        {
-          skillName: "Laravel",
-          fontAwesomeClassname: "simple-icons:laravel",
-          style: {
-            color: "#FF4646"
+            color: "#B9062F"
           }
         },
         {
@@ -88,6 +81,20 @@ const skills = {
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB"
+          }
+        },
+        {
+          skillName: "Php",
+          fontAwesomeClassname: "simple-icons:php",
+          style: {
+            color: "#7B68EE"
+          }
+        },
+        {
+          skillName: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+          style: {
+            color: "#FF4646"
           }
         },
         {
@@ -130,6 +137,20 @@ const skills = {
           fontAwesomeClassname: "simple-icons:go",
           style: {
             color: "#36E0C6"
+          }
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#0064CD"
+          }
+        },
+        {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "simple-icons:kotlin",
+          style: {
+            color: "#5A5AFF"
           }
         }
       ]
@@ -198,7 +219,21 @@ const skills = {
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
             color: "#326CE5"
-          }
+          },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
+          style: {
+            color: "#B9062F"
+          },
+        },
+        {
+          skillName: "Jira Software",
+          fontAwesomeClassname: "simple-icons:jira",
+          style: {
+            color: "#0064FF"
+          },
         }
       ]
     },
@@ -320,14 +355,6 @@ const competitiveSites = {
       },
       profileLink: "https://www.codechef.com/users/korrakot_1396"
     },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB"
-    //   },
-    //   profileLink: ""
-    // },
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
@@ -336,14 +363,6 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerearth.com/@korrakot.tr"
     },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF"
-    //   },
-    //   profileLink: ""
-    // }
   ]
 }
 
