@@ -26,11 +26,15 @@ class Splash extends Component {
   }
 
   componentWillMount() {
+    this.aniMatedSplash = <AnimatedSplash/>;
+  }
+
+  componentWillUnmount() {
     clearTimeout(this.id);
   }
 
   render() {
-    return this.state.redirect ? <Redirect to="/home" /> : <AnimatedSplash />;
+    return this.state.redirect ? <Redirect to="/home" /> : this.aniMatedSplash;
   }
 }
 
