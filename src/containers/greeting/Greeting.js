@@ -14,13 +14,13 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text">
-              <Typical 
+              {/* <Typical 
               steps={['Korrakot', 1000, 'Korrakot Triwichian', 500]}
               loop={Infinity}
               wrapper="p"
-              />
+              /> */}
               </h1>
-              {/* <h1 className="greeting-text">{greeting.title}</h1> */}
+              <h1 className="greeting-text">{greeting.title}</h1>
               <h2 className="greeting-nickname">( {greeting.nickname} )</h2>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
