@@ -3,6 +3,8 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
+import Typical from 'react-typical';
+
 
 export default function Greeting() {
   return (
@@ -11,7 +13,14 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}</h1>
+              <h1 className="greeting-text">
+              <Typical 
+              steps={['Korrakot', 1000, 'Korrakot Triwichian', 500]}
+              loop={Infinity}
+              wrapper="p"
+              />
+              </h1>
+              {/* <h1 className="greeting-text">{greeting.title}</h1> */}
               <h2 className="greeting-nickname">( {greeting.nickname} )</h2>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
@@ -26,8 +35,6 @@ export default function Greeting() {
               alt="img-greeting"
               src={require("../../assests/images/korrakot.GIF")}
             ></img>
-            
-            
           </div>
         </div>
       </div>

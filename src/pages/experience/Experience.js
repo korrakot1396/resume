@@ -16,19 +16,28 @@ const experience = {
 		{
 			title: "Work",
 			experiences: [
-
+				{
+					title: "Software Engineer",
+					company: "Azure computers.",
+					company_url: "https://azurecomputer.com/",
+					logo_path: "azure_computer_logo.jpeg",
+					duration: "Mar 2022 - Present",
+					location: "Bangkok, Thailand",
+					// description:
+					// 	"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
+					color: "#6495ED"
+				},
 				{
 					title: "Software Engineer",
 					company: "Accenture Solutions.",
 					company_url: "https://www.accenture.com/th-en/",
 					logo_path: "accenture_logo.png",
-					duration: "Ang 2021 - Present",
+					duration: "Ang 2021 - Feb 2022(1 year 7 Month)",
 					location: "Bangkok, Thailand",
 					// description:
 					// 	"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
 					color: "#9400D3"
 				},
-
 				{
 					title: "Backend Developer",
 					company: "TSPACE Digital.",
@@ -40,29 +49,6 @@ const experience = {
 					// 	"I have worked on project of tournament esports freefire for manage tournaments and organize a competition. There were two objectives: (1) To build a organizing tournament esports freefire. (2) To build manage website from administator. Tournament Esports Freefire System using many technologies stack such as ReactJS, PHP(Laravel framework), Docker, Nginx, Cloud CDN, Mysql, Redis.",
 					color: "#0000CD"
 				},
-			
-				// {
-				// 	title: "Android and ML Developer",
-				// 	company: "Muffito Incorporation",
-				// 	company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-				// 	logo_path: "muffito_logo.png",
-				// 	duration: "May 2018 - Oct 2018",
-				// 	location: "Pune, Maharashtra",
-				// 	description:
-				// 		"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-				// 	color: "#9b1578"
-				// },
-				// {
-				// 	title: "Android Developer",
-				// 	company: "FreeCopy Pvt. Ltd.",
-				// 	company_url: "https://www.linkedin.com/company/freecopy/about/",
-				// 	logo_path: "freecopy_logo.png",
-				// 	duration: "Nov 2017 - Dec 2017",
-				// 	location: "Ahmedabad, Gujarat",
-				// 	description:
-				// 		"FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-				// 	color: "#fc1f20"
-				// }
 			]
 		},
 		{
