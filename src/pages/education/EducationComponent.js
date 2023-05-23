@@ -8,6 +8,10 @@ import {competitiveSites}  from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
+const education = {
+	title: "Education",
+	header_image_path: "education.svg",
+}
 class Education extends Component {
   render() {
     return (
@@ -17,7 +21,10 @@ class Education extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                <img src={require("../../assests/images/education.svg")} alt="img-education" />
+              <img
+									src={require(`../../assests/images/${education["header_image_path"]}`)}
+								    alt=""
+								/>
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text">Education</h1>
