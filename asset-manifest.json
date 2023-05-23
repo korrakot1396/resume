@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.5041399a.css",
-    "main.js": "/resume/static/js/main.94522027.js",
+    "main.js": "/resume/static/js/main.5214be3a.js",
     "static/media/Graduation_Loop_Old_Version.gif": "/resume/static/media/Graduation_Loop_Old_Version.110ffa86e7a1b0055c1a.gif",
     "static/media/korrakot.GIF": "/resume/static/media/korrakot.50f9c8f6fe38426399aa.GIF",
     "static/media/Graduation_Loop.gif": "/resume/static/media/Graduation_Loop.826e5891f2d7c4e3b76c.gif",
@@ -10,7 +10,7 @@
     "static/media/ui_ux_design.svg": "/resume/static/media/ui_ux_design.18d6168d6f26cccf06dc.svg",
     "static/media/experience.svg": "/resume/static/media/experience.1e865f7a0d857c867d7f.svg",
     "static/media/ui_ux_design_1.svg": "/resume/static/media/ui_ux_design_1.bf58cd1c2119f858e41a.svg",
-    "static/media/education.svg": "/resume/static/media/education.f7eff01454f0a0beef73dc898b156282.svg",
+    "static/media/education.svg": "/resume/static/media/education.f7eff01454f0a0beef73.svg",
     "static/media/feelingProud2.svg": "/resume/static/media/feelingProud2.280e48abe56e3a0cca87.svg",
     "static/media/fullstack.svg": "/resume/static/media/fullstack.e6c769f462a9e7b9de2f.svg",
     "static/media/fullstackxx.svg": "/resume/static/media/fullstackxx.8f639bba54fc2dd01d46.svg",
@@ -64,7 +64,6 @@
     "static/media/fa-brands-400.woff2": "/resume/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2",
     "static/media/uni_london2_logo.png": "/resume/static/media/uni_london2_logo.f66032419880375af241.png",
     "static/media/intel_logo.jpg": "/resume/static/media/intel_logo.d7577f35a3dac4e5636d.jpg",
-    "static/media/ui_ux_design_2.svg": "/resume/static/media/ui_ux_design_2.854347223a55d818e24e.svg",
     "static/media/muffito_logo.png": "/resume/static/media/muffito_logo.6b273387e2d0ca5268de.png",
     "static/media/nptel_logo.png": "/resume/static/media/nptel_logo.179ef619ce694c57e948.png",
     "static/media/aws_logo_smile_1200x630.png": "/resume/static/media/aws_logo_smile_1200x630.7cfb1f5c177359a0bd66.png",
@@ -87,23 +86,18 @@
     "static/media/developerActivity.svg": "/resume/static/media/developerActivity.2c0445cae86f4243433a.svg",
     "static/media/ku_mooc.png": "/resume/static/media/ku_mooc.3fcfa5d8d698456c6295.png",
     "static/media/googleAssistant.jpg": "/resume/static/media/googleAssistant.547075a751cc15673246.jpg",
-    "static/media/projects_image1.svg": "/resume/static/media/projects_image1.fa5ff5db727b696891cf.svg",
     "static/media/programmer.svg": "/resume/static/media/programmer.becd1465cc28d37ba166.svg",
     "static/media/jsFramework.svg": "/resume/static/media/jsFramework.6f29b1988f86d14c7845.svg",
     "static/media/pwa.png": "/resume/static/media/pwa.4f9edd63cdcb93bd58e6.png",
-    "static/media/experience2.svg": "/resume/static/media/experience2.9aa990f887966aa1ed33.svg",
     "static/media/tensorflow_logo.png": "/resume/static/media/tensorflow_logo.1efaebff9e4c1b2502de.png",
     "static/media/kotlin.png": "/resume/static/media/kotlin.e89c4ece6f794a41f22f.png",
     "static/media/fa-regular-400.woff": "/resume/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/learn_quest_logo.png": "/resume/static/media/learn_quest_logo.9a6941f42ff8f0e1c450.png",
     "static/media/fa-regular-400.woff2": "/resume/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
-    "static/media/feelingProud1.svg": "/resume/static/media/feelingProud1.61bf63c347fbbf181169.svg",
-    "static/media/blogs_image_1.svg": "/resume/static/media/blogs_image_1.b87d12fdcf07ecac3e35.svg",
     "static/media/cloud_infr-2astructure.svg": "/resume/static/media/cloud_infr-2astructure.5fd77f6bdc4dd4a64bce.svg",
     "static/media/project_network.png": "/resume/static/media/project_network.dd6e2c157f97a2db4fa1.png",
     "static/media/sandiego_logo.png": "/resume/static/media/sandiego_logo.b6f7f6036c31b9e5c25c.png",
     "static/media/accenture_logo.png": "/resume/static/media/accenture_logo.8b38f093bf7e213a05f6.png",
-    "static/media/data_science1.svg": "/resume/static/media/data_science1.6c372e36a19eb4f3a1c8.svg",
     "static/media/fullstack44.svg": "/resume/static/media/fullstack44.8fd53fb8e0210fae675b.svg",
     "static/media/education1.svg": "/resume/static/media/education1.8b0258a1a86c19fe8f3b.svg",
     "index.html": "/resume/index.html",
@@ -112,10 +106,10 @@
     "static/media/talksCardBackAlt.svg": "/resume/static/media/talksCardBackAlt.3919b921ef467527e918.svg",
     "static/media/talksCardBack.svg": "/resume/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.5041399a.css.map": "/resume/static/css/main.5041399a.css.map",
-    "main.94522027.js.map": "/resume/static/js/main.94522027.js.map"
+    "main.5214be3a.js.map": "/resume/static/js/main.5214be3a.js.map"
   },
   "entrypoints": [
     "static/css/main.5041399a.css",
-    "static/js/main.94522027.js"
+    "static/js/main.5214be3a.js"
   ]
 }
