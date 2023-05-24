@@ -17,7 +17,7 @@ function Splash() {
   const [redirect, setRedirect] = useState(false);
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setRedirect(true), 5500);
+    const timeoutId = setTimeout(() => setRedirect(true), 6000);
     return () => clearTimeout(timeoutId);
   }, []);
 
