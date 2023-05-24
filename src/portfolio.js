@@ -11,7 +11,7 @@ const greeting = {
 	title: "Korrakot Triwichian",
 	nickname: "Suea or Tiger",
 	subTitle:
-		"I successfully attained my degree in Computer Science from Kasetsart University's Bangkhen Campus. I possess a strong drive to continually enhance my expertise and abilities, actively seeking opportunities for growth. At present, I am dedicated to honing my English language proficiency to effectively communicate and excel professionally.",
+		"I graduated from Kasetsart University (Bangkhen Campus) with a degree in Computer Science. I'm eager to expand my knowledge and skills and I'm currently working on improving my English proficiency.",
 	resumeLink:
 		"https://drive.google.com/drive/folders/1Tk9VAUrvNwx-zrRDl2gpVe2f0wWL3JKn?usp=sharing"
 };
