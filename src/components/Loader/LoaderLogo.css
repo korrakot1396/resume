@@ -1,34 +1,11 @@
-/* LoaderLogo.css */
-
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+.lottie-container {
+  width: 30%;
+  height: 100%;
 }
-
-@keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-/* Media queries for mobile devices */
 
 @media only screen and (max-width: 600px) {
-  .fakeScreen,
-  .fakeMenu {
+  .lottie-container {
     width: 100%;
+    height: 100%;
   }
 }
