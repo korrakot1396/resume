@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.9ffae4f6.css",
-    "main.js": "/resume/static/js/main.66d2190a.js",
+    "main.css": "/resume/static/css/main.7be86ccf.css",
+    "main.js": "/resume/static/js/main.602ed014.js",
     "static/media/Graduation_Loop_Old_Version.gif": "/resume/static/media/Graduation_Loop_Old_Version.110ffa86e7a1b0055c1a.gif",
     "static/media/korrakot.GIF": "/resume/static/media/korrakot.50f9c8f6fe38426399aa.GIF",
     "static/media/Graduation_Loop.gif": "/resume/static/media/Graduation_Loop.826e5891f2d7c4e3b76c.gif",
@@ -105,11 +105,11 @@
     "static/media/googleAssistant.svg": "/resume/static/media/googleAssistant.3227e84a89a1650db619.svg",
     "static/media/talksCardBackAlt.svg": "/resume/static/media/talksCardBackAlt.3919b921ef467527e918.svg",
     "static/media/talksCardBack.svg": "/resume/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
-    "main.9ffae4f6.css.map": "/resume/static/css/main.9ffae4f6.css.map",
-    "main.66d2190a.js.map": "/resume/static/js/main.66d2190a.js.map"
+    "main.7be86ccf.css.map": "/resume/static/css/main.7be86ccf.css.map",
+    "main.602ed014.js.map": "/resume/static/js/main.602ed014.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ffae4f6.css",
-    "static/js/main.66d2190a.js"
+    "static/css/main.7be86ccf.css",
+    "static/js/main.602ed014.js"
   ]
 }
