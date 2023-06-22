@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Modal from 'react-modal';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
 import Button from '../../components/button/Button';
-import { greeting } from '../../portfolio';
 import { Fade } from 'react-reveal';
 import './ContactComponent.css';
+import './ResumePopup.css'
+import { Scrollbars } from 'react-scrollbars-custom';
 
 const blogSection = {
   /* Blogs Section */
@@ -41,11 +43,22 @@ const fullnameSection = {
 const ContactData = {
   title: 'Contact Me',
   profile_image_path: 'animated_ashutosh.png',
+  resume_image_path: 'resume.png',
   description:
     'I am available on almost every social media. You can message me, I will reply within 24 hours, I have a my quote in my heart is some people dream of success while others wake up and work hard at it.',
 };
 
 const Contact = () => {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const openPopup = () => {
+    setShowPopup(true);
+  };
+  
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+
   return (
     <div className="contact-main">
       <Header />
@@ -53,10 +66,10 @@ const Contact = () => {
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
-			<img
-				src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-				alt=""
-			/>
+              <img
+                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                alt=""
+              />
             </div>
             <div className="contact-heading-text-div">
               <h1 className="contact-heading-text">{ContactData['title']}</h1>
@@ -65,11 +78,24 @@ const Contact = () => {
               </p>
               <SocialMedia />
               <div className="resume-btn-div">
-                <Button
-                  text="See My Resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                />
+                <Button text="See My Resume" onClick={openPopup} />
+                <Modal
+                  isOpen={showPopup}
+                  onRequestClose={closePopup}
+                  className="modal-container"
+                  overlayClassName="modal-overlay"
+                >
+                  <div className="modal-content">
+                    <button className="close-button" onClick={closePopup}>
+                      Close
+                    </button>
+                    <img
+                      className="responsive-popup"
+                      src={require(`../../assests/images/${ContactData['resume_image_path']}`)}
+                      alt="resume-image-popup"
+                    />
+                  </div>
+                </Modal>
               </div>
             </div>
           </div>
@@ -90,20 +116,20 @@ const Contact = () => {
               </div>
             </div>
             <div className="blog-heading-img-div">
-			<img
-				src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-				alt=""
-			/>
+              <img
+                src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
+                alt=""
+              />
             </div>
           </div>
         </Fade>
         <Fade bottom duration={1000} distance="40px">
           <div className="address-heading-div">
             <div className="contact-heading-img-div">
-			<img
-				src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
-				alt=""
-			/>
+              <img
+                src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
+                alt=""
+              />
             </div>
             <div className="address-heading-text-div">
               <h1 className="address-heading-text">{fullnameSection['title']}</h1>
@@ -133,8 +159,7 @@ const Contact = () => {
           </div>
         </Fade>
       </div>
-	  <div>
-    </div>
+      <div></div>
       <Footer />
     </div>
   );
