@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.a5f1f1c7.css",
-    "main.js": "/resume/static/js/main.af37b4be.js",
+    "main.js": "/resume/static/js/main.33b41d67.js",
     "static/media/Graduation_Loop_Old_Version.gif": "/resume/static/media/Graduation_Loop_Old_Version.110ffa86e7a1b0055c1a.gif",
     "static/media/korrakot.GIF": "/resume/static/media/korrakot.50f9c8f6fe38426399aa.GIF",
     "static/media/Graduation_Loop.gif": "/resume/static/media/Graduation_Loop.826e5891f2d7c4e3b76c.gif",
@@ -108,10 +108,10 @@
     "static/media/talksCardBackAlt.svg": "/resume/static/media/talksCardBackAlt.3919b921ef467527e918.svg",
     "static/media/talksCardBack.svg": "/resume/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.a5f1f1c7.css.map": "/resume/static/css/main.a5f1f1c7.css.map",
-    "main.af37b4be.js.map": "/resume/static/js/main.af37b4be.js.map"
+    "main.33b41d67.js.map": "/resume/static/js/main.33b41d67.js.map"
   },
   "entrypoints": [
     "static/css/main.a5f1f1c7.css",
-    "static/js/main.af37b4be.js"
+    "static/js/main.33b41d67.js"
   ]
 }
