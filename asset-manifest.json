@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.5b2648b2.css",
-    "main.js": "/resume/static/js/main.523e279a.js",
+    "main.css": "/resume/static/css/main.a5f1f1c7.css",
+    "main.js": "/resume/static/js/main.af37b4be.js",
     "static/media/Graduation_Loop_Old_Version.gif": "/resume/static/media/Graduation_Loop_Old_Version.110ffa86e7a1b0055c1a.gif",
     "static/media/korrakot.GIF": "/resume/static/media/korrakot.50f9c8f6fe38426399aa.GIF",
     "static/media/Graduation_Loop.gif": "/resume/static/media/Graduation_Loop.826e5891f2d7c4e3b76c.gif",
@@ -11,6 +11,7 @@
     "static/media/experience.svg": "/resume/static/media/experience.1e865f7a0d857c867d7f.svg",
     "static/media/ui_ux_design_1.svg": "/resume/static/media/ui_ux_design_1.bf58cd1c2119f858e41a.svg",
     "static/media/education.svg": "/resume/static/media/education.f7eff01454f0a0beef73.svg",
+    "static/media/resume.pdf": "/resume/static/media/resume.7c8f121bf7a382178813.pdf",
     "static/media/feelingProud2.svg": "/resume/static/media/feelingProud2.280e48abe56e3a0cca87.svg",
     "static/media/fullstack.svg": "/resume/static/media/fullstack.e6c769f462a9e7b9de2f.svg",
     "static/media/fullstackxx.svg": "/resume/static/media/fullstackxx.8f639bba54fc2dd01d46.svg",
@@ -25,6 +26,7 @@
     "static/media/D445E69.png": "/resume/static/media/D445E69.b84adab46fac28005185.png",
     "static/media/fa-brands-400.svg": "/resume/static/media/fa-brands-400.5f2a2f236048660df440.svg",
     "static/media/MegaCard1.png": "/resume/static/media/MegaCard1.b26ea8b4f188ebf0d668.png",
+    "static/media/resume.png": "/resume/static/media/resume.ab0306e6efc7aeabb266.png",
     "static/media/ui_ux_design_5.svg": "/resume/static/media/ui_ux_design_5.e1c30b01228d2ee10c50.svg",
     "static/media/blogs_image.svg": "/resume/static/media/blogs_image.e3d87138af94f7d085c9.svg",
     "static/media/kasetsart_logo_big.png": "/resume/static/media/kasetsart_logo_big.032c12dacfafde17f05c.png",
@@ -105,11 +107,11 @@
     "static/media/googleAssistant.svg": "/resume/static/media/googleAssistant.3227e84a89a1650db619.svg",
     "static/media/talksCardBackAlt.svg": "/resume/static/media/talksCardBackAlt.3919b921ef467527e918.svg",
     "static/media/talksCardBack.svg": "/resume/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
-    "main.5b2648b2.css.map": "/resume/static/css/main.5b2648b2.css.map",
-    "main.523e279a.js.map": "/resume/static/js/main.523e279a.js.map"
+    "main.a5f1f1c7.css.map": "/resume/static/css/main.a5f1f1c7.css.map",
+    "main.af37b4be.js.map": "/resume/static/js/main.af37b4be.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b2648b2.css",
-    "static/js/main.523e279a.js"
+    "static/css/main.a5f1f1c7.css",
+    "static/js/main.af37b4be.js"
   ]
 }
