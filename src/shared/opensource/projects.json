@@ -7,6 +7,7 @@
             "url": "https://github.com/korrakot1396/samsantech-app",
             "description": "This Project is contact CRUD of samsantech company",
             "demo": "https://samsantech-app.herokuapp.com/",
+            "video": "",
             "isFork": false,
             "languages": [
                 {
@@ -28,6 +29,7 @@
             "url": "https://github.com/korrakot1396/Basic-Web-Development-Assessment-by-Tiger",
             "description": "This Project is created basics web using html css and javascript",
             "demo": "https://sample-site-app-e900b.web.app/",
+            "video": "",
             "isFork": false,
             "languages": [
                 {
@@ -52,7 +54,8 @@
             "createdAt": "2020-06-19T04:48:18Z",
             "url": "https://github.com/korrakot1396/Share-Travel-Expenses",
             "description": "This Project about sharing travel expenses.",
-            "demo": "https://www.youtube.com/watch?v=LbcO3CZLvZ4&t=9s",
+            "demo": "",
+            "video": "https://www.youtube.com/embed/LbcO3CZLvZ4",
             "isFork": false,
             "languages": [
                 {
@@ -70,7 +73,8 @@
             "createdAt": "2020-04-22T17:25:51Z",
             "url": "https://github.com/korrakot1396/KU-SocialApp/tree/master",
             "description": "This Project is Application Socialmedia for KU-Students",
-            "demo": "https://www.youtube.com/watch?v=QXIBu8DWEEQ",
+            "demo": "",
+            "video": "https://www.youtube.com/embed/QXIBu8DWEEQ",
             "isFork": false,
             "languages": [
                 {
@@ -90,6 +94,7 @@
             "url": "https://github.com/korrakot1396/Monfin-Project",
             "description": "This Project is reserve accommodation on Doi Inthanon",
             "demo": "http://monfin.herokuapp.com",
+            "video": "",
             "isFork": false,
             "languages": [
                 {
@@ -110,6 +115,7 @@
             "url": "https://github.com/korrakot1396/KU-Cinema",
             "description": "This Project is reserve for movie seats at Kasetsart University",
             "demo": "https://github.com/korrakot1396/KU-Cinema",
+            "video": "",
             "isFork": false,
             "languages": [
                 {

@@ -1,20 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectLanguages from '../../components/projectLanguages/ProjectLanguages';
 import "./GithubRepoCard.css";
+import "./PopupVideo.css"
 import Button from "../../components/button/Button";
+import ButtonGitHub from "../../components/button/ButtonGitHub"
+import ButtonVideo from "../../components/button/ButtonVideo"
+
 
 export default function GithubRepoCard({ repo }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+
+	const [showPopup, setShowPopup] = useState(false);
+
+	function Popup({ onClose, videoUrl }) {
+	  return (
+		<div className="popup-overlay">
+		  <div className="popup-content">
+			<button className="popup-close-button" onClick={onClose}>
+			  Close
+			</button>
+			<iframe class="responsive-iframe"  title="Video Player" src={videoUrl} frameborder="0" allowfullscreen></iframe>
+		  </div>
+		</div>
+	  );
+	}
+
+  
+	const openPopup = () => {
+			setShowPopup(true);
+		};
+		
+		const closePopup = () => {
+			setShowPopup(false);
+	};
+  
 
   return (
 		<div>
 			<div
 				className="repo-card-div"
 				key={repo.id}
-				onClick={() => openRepoinNewTab(repo.url)}
 			>
 				<div className="repo-name-div">
 					<svg
@@ -37,12 +61,34 @@ export default function GithubRepoCard({ repo }) {
 					<p className="repo-creation-date subTitle">Created on {repo.createdAt.split('T')[0]}</p>
           <ProjectLanguages className="repo-languages" logos={repo.languages} />
 				</div>
-        <Button
-              text={"Demo"}
-							className="project-button"
-							href={repo.demo}
+				<div class="button-container">		
+					{repo.video && repo.video !== "" && (
+						<ButtonVideo
+						text={"Video"}
+						className="project-button"
+						// href={repo.video}
+						onClick={openPopup}
+					/>
+					)}
+					{repo.demo && repo.demo !== "" && (
+						<Button
+						text={"Demo"}
+						className="project-button"
+						href={repo.demo}
 						/>
+					)}
+					{repo.url && repo.url !== "" && (
+						<ButtonGitHub
+						text={"Github"}
+						className="project-button"
+						href={repo.url}
+						/>
+					)}
+					</div>
 			</div>
+			{showPopup && (
+        <Popup onClose={closePopup} videoUrl={repo.video} />
+      )}
 		</div>
 	);
 }
