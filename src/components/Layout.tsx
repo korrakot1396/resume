@@ -10,6 +10,7 @@ const navigation = [
   { to: "/education", label: "Education" },
   { to: "/experience", label: "Experience" },
   { to: "/projects", label: "Projects" },
+  { to: "/life-cycle", label: "Life cycle" },
   { to: "/contact", label: "Contact me" },
 ];
 

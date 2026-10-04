@@ -3,7 +3,9 @@ import { Link, Route, Routes } from "react-router";
 import { Layout } from "./components/Layout";
 import Home from "./pages/Home";
 import Splash from "./pages/Splash";
+import IntroLibrary from "./pages/IntroLibrary";
 
+const LifeCycle = lazy(() => import("./pages/LifeCycle"));
 const Education = lazy(() => import("./pages/Education"));
 const Experience = lazy(() => import("./pages/Experience"));
 const Projects = lazy(() => import("./pages/Projects"));
@@ -16,10 +18,12 @@ export default function App() {
       fallback={<output className="page-loading">Loading portfolio…</output>}
     >
       <Routes>
-        <Route index element={<Splash />} />
-        <Route path="/splash" element={<Splash />} />
+        <Route index element={<IntroLibrary />} />
+        <Route path="/splash" element={<IntroLibrary />} />
+        <Route path="/intro/story" element={<Splash />} />
         <Route element={<Layout />}>
           <Route path="/home" element={<Home />} />
+          <Route path="/life-cycle" element={<LifeCycle />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />

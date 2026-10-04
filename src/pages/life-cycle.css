@@ -1,0 +1,55 @@
+.life-page { padding: 54px 0 80px; }
+.life-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 32px; }
+.life-heading .eyebrow { display: flex; gap: 8px; align-items: center; }
+.life-heading h1 { font-size: clamp(32px, 4.5vw, 64px); letter-spacing: -.045em; margin: 12px 0; }
+.life-heading h1 span { color: #7863ed; }
+.life-heading p:not(.eyebrow) { opacity: .65; }
+.life-collection-count { font: 11px ui-monospace, monospace; letter-spacing: .08em; white-space: nowrap; opacity: .6; padding-bottom: 12px; }
+.life-cinema { position: relative; isolation: isolate; aspect-ratio: 16 / 9; width: 100%; background: #111320; border-radius: 24px; overflow: hidden; box-shadow: 0 24px 60px #171b2e20; }
+.life-cinema video { display: block; width: 100%; height: 100%; object-fit: contain; background: #05060a; }
+.life-cinema video[hidden] { display: none; }
+.life-player-cover { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #fff; padding: 26px; background: radial-gradient(ellipse at 50% 20%, #35315e, transparent 75%), #111320; }
+.life-player-cover h2 { font-size: clamp(22px, 3.5vw, 48px); margin: 12px 0; letter-spacing: -.035em; }
+.life-player-cover p { margin: 0 0 20px; color: #cac6df; line-height: 1.6; }
+.life-kicker { font: 10px ui-monospace, monospace; letter-spacing: .17em; color: #bbb0ff; }
+.life-film-symbol { color: #c9baff; font-size: clamp(30px, 5vw, 66px); line-height: 1; margin-bottom: 22px; }
+.life-play { display: flex; align-items: center; gap: 10px; background: #e5deff; color: #2b2147; padding: 14px 24px; border: 0; border-radius: 99px; cursor: pointer; font-weight: 700; }
+.life-play:focus-visible, .life-film-card:focus-visible { outline: 3px solid #9d8aff; outline-offset: 4px; }
+.life-rotate small { color: #a29db8; }
+.life-phone { position: relative; color: #c9baff; margin-bottom: 28px; }
+.life-phone svg:last-child { position: absolute; right: -25px; top: 10px; }
+.life-now { display: flex; gap: 18px; align-items: center; padding: 20px 0 34px; border-bottom: 1px solid #8c87a329; }
+.life-now > span { display: flex; align-items: center; gap: 8px; font: 10px ui-monospace, monospace; opacity: .7; }
+.life-now i { width: 6px; height: 6px; border-radius: 50%; background: #54b59d; }
+.life-now small { margin-left: auto; opacity: .6; }
+.life-library { display: grid; grid-template-columns: 1fr 1.3fr; gap: 40px; margin-top: 38px; }
+.life-library h2 { font-size: 24px; max-width: 280px; }
+.life-films { display: grid; gap: 12px; }
+.life-film-card { background: transparent; color: inherit; text-align: left; display: flex; align-items: center; gap: 20px; width: 100%; padding: 22px; border: 1px solid #8c87a333; border-radius: 18px; cursor: pointer; }
+.life-film-card[aria-pressed=true] { border-color: #8d79e5; background: #8d79e510; }
+.life-film-number { font-size: 28px; color: #8d79e5; }
+.life-film-card strong, .life-film-card small { display: block; }
+.life-film-card small { margin-top: 7px; opacity: .6; line-height: 1.5; }
+.life-film-card > svg { margin-left: auto; flex-shrink: 0; }
+.life-home-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; color: var(--primary, #6b56d9); text-decoration: none; font-weight: 600; }
+@media (max-width: 700px) {
+  .life-page { padding-top: 28px; }
+  .life-heading { display: block; }
+  .life-collection-count { display: inline-block; margin-top: 12px; }
+  .life-cinema:has(.life-rotate) { aspect-ratio: 4 / 5; }
+  .life-now { flex-wrap: wrap; gap: 10px; }
+  .life-now small { flex-basis: 100%; margin-left: 0; }
+  .life-library { grid-template-columns: 1fr; gap: 16px; }
+}
+@media (orientation: landscape) and (max-height: 550px) {
+  body:has(.life-page) .site-header, body:has(.life-page) .site-footer, body:has(.life-page) .life-heading, body:has(.life-page) .life-now, body:has(.life-page) .life-library { display: none; }
+  body:has(.life-page) #main-content { max-width: none; padding: 0; width: 100%; }
+  .life-page { padding: 0; }
+  .life-cinema { height: 100dvh; aspect-ratio: auto; border-radius: 0; }
+  .life-film-symbol { display: none; }
+}
+
+.life-enter { color: #ded5ff; margin-top: 16px; font-weight: 600; text-decoration: none; }
+@media (orientation: landscape) and (max-height: 550px) {
+  .life-back { position: fixed; top: max(10px, env(safe-area-inset-top)); left: max(12px, env(safe-area-inset-left)); z-index: 3; margin: 0; color: white; background: #171b2ea6; padding: 8px 12px; border-radius: 99px; font-size: 12px; }
+}

@@ -1,6 +1,7 @@
 import { IllustrationStory } from "../components/IllustrationStory";
 import { Link } from "react-router";
 import {
+  Play,
   ArrowDown,
   ArrowUpRight,
   Code2,
@@ -43,6 +44,7 @@ export default function Home() {
             </Link>
             <ResumeButton />
           </div>
+          <Link className="life-home-link" to="/life-cycle"><Play size={16} /> Watch my life in motion <ArrowUpRight size={16} /></Link>
           <div className="hero-social">
             <SocialLinks />
             <span className="location">

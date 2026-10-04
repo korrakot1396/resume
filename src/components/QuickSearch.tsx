@@ -5,6 +5,7 @@ import { projects } from "../data/portfolio";
 import { Modal } from "./Modal";
 
 const items = [
+  { name: "Life cycle", detail: "Animated films & life stories", to: "/life-cycle" },
   { name: "Home", detail: "About me & skills", to: "/home" },
   {
     name: "Education",

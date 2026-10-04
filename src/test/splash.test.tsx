@@ -6,7 +6,7 @@ import { createStory, loadStoryAssets, loadStoryFonts } from '../features/career
 
 vi.mock('../features/career-story/storyEngine', () => ({ createStory: vi.fn(), loadStoryAssets: vi.fn(), loadStoryFonts: vi.fn() }));
 const play = vi.fn(), pause = vi.fn(), destroy = vi.fn();
-function open(path = '/') { return render(<MemoryRouter initialEntries={[path]}><App /></MemoryRouter>); }
+function open(path = '/intro/story') { return render(<MemoryRouter initialEntries={[path]}><App /></MemoryRouter>); }
 async function ready() { await act(async () => { await Promise.resolve(); }); }
 
 describe('canvas intro integration', () => {
@@ -30,12 +30,13 @@ describe('canvas intro integration', () => {
     expect(destroy).toHaveBeenCalled();
   });
   it('can skip immediately before images load', () => {
-    open('/splash'); fireEvent.click(screen.getByRole('link', { name: 'Skip intro' }));
+    open('/intro/story'); fireEvent.click(screen.getByRole('link', { name: 'Skip intro' }));
     expect(screen.getByRole('heading', { name: "Hi, I'm Korrakot." })).toBeVisible();
     expect(vi.getTimerCount()).toBe(0);
   });
   it('replays through the header wordmark', async () => {
-    open('/home'); fireEvent.click(screen.getByRole('link', { name: 'Replay Korrakot intro' })); await ready();
+    open('/home'); fireEvent.click(screen.getByRole('link', { name: 'Replay Korrakot intro' }));
+    fireEvent.click(screen.getByRole('link', { name: /The illustrated story/ })); await ready();
     expect(screen.getByRole('img', { name: /Korrakot.s career story/ })).toBeVisible();
   });
   it('does not trap visitors when assets fail or stall', async () => {

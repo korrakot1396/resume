@@ -4,6 +4,10 @@
 
 ### Added
 
+- Entry screen now offers an illustrated intro, Life cycle films, or direct portfolio access.
+- Added the supplied 10-second film to a data-driven Life cycle collection; new films automatically appear in the intro chooser.
+- Portrait mobile playback gate, rotate-back pause, explicit play/resume, native video controls, and portfolio link after playback. Video loading is deferred until Play.
+
 - Responsive canvas composition now extends campus, skyline, character scale, and scene overlays to tall mobile screens without stretching the artwork.
 - Added chapter navigation and desktop editorial notes/postcards for the four career stages.
 
