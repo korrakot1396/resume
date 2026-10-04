@@ -86,7 +86,7 @@ export default function Education() {
               key={certificate.certificate_link}
               href={certificate.certificate_link}
             >
-              <div className="certificate-logo">
+              <div className="certificate-logo" style={{ backgroundColor: certificate.color_code }}>
                 <img
                   src={images[certificate.logo_path]}
                   alt=""

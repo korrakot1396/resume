@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router";
 import { describe, expect, it } from "vitest";
 import App from "../App";
-import { projects } from "../data/portfolio";
+import { certifications, projects } from "../data/portfolio";
 import { filterProjects, projectDate } from "../lib/projects";
 
 function renderPage(path: string) {
@@ -15,6 +15,17 @@ function renderPage(path: string) {
 }
 
 describe("portfolio routes and interactions", () => {
+  it("preserves the original contrast background for every certification logo", async () => {
+    const { container } = renderPage("/education");
+    await screen.findByRole("textbox", { name: "Search certifications" });
+    const logos = container.querySelectorAll<HTMLElement>(".certificate-logo");
+    expect(logos).toHaveLength(certifications.length);
+    certifications.forEach((certificate, index) => {
+      expect(logos[index]).toHaveStyle({ backgroundColor: certificate.color_code });
+      expect(logos[index]?.querySelector("img")?.getAttribute("src")).toBeTruthy();
+    });
+  });
+
   it("opens the home route with the original profile and all social links", async () => {
     renderPage("/home");
     expect(

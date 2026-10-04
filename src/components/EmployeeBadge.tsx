@@ -1,3 +1,4 @@
+import { IllustrationStory } from "./IllustrationStory";
 import { useState } from "react";
 import { Expand, Heart, PencilLine, Sparkles } from "lucide-react";
 import { images } from "../lib/images";
@@ -9,6 +10,7 @@ export function EmployeeBadge() {
   return (
     <figure className="badge-showcase">
       <div className="badge-stage">
+        <IllustrationStory kind="contact" />
         <div className="badge-doodles" aria-hidden="true">
           <Sparkles />
           <Heart />

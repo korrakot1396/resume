@@ -32,8 +32,8 @@ function Header() {
       <div className="header-inner">
         <Link
           className="wordmark"
-          to="/home"
-          aria-label="Korrakot home"
+          to="/splash"
+          aria-label="Replay Korrakot intro"
           onClick={() => setOpen(false)}
         >
           <span>&lt;</span> Korrakot <span>/&gt;</span>

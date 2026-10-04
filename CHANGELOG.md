@@ -4,6 +4,13 @@
 
 ### Added
 
+- Responsive canvas composition now extends campus, skyline, character scale, and scene overlays to tall mobile screens without stretching the artwork.
+- Added chapter navigation and desktop editorial notes/postcards for the four career stages.
+
+- Replaced the intro with the supplied canvas career-story engine and six original transparent sprites: terminal boot, campus, coding, graduation, and developer scenes.
+- Full-viewport intro with scene-colored backgrounds, 15 seconds of active playback, immediate skip, pause/resume, visibility pausing, and asset-failure fallback. The reusable CareerStory defaults to the original 19-second loop.
+- Lossless WebP sprites preserve transparency and the original character artwork; no animation dependency added.
+
 - Light and dark themes, initialized from the device preference and remembered locally.
 - Quick navigation and project search with `⌘K` / `Ctrl+K`.
 - Searchable projects with technology filters and shareable search URLs.
@@ -78,3 +85,12 @@ Node is pinned to **22.23.3** in `.nvmrc`; npm is **12.2.0**. TypeScript ESLint'
 - Adapted the supplied career-story concept into four synchronized chapters: campus, Computer Science, graduation, and software engineering. Reuses frames from the original illustration with chapter-specific accents, captions, and graduation confetti.
 - Preserves the 15-second deadline, immediate skip, reduced-motion bypass, and image-error fallback. Uses React/CSS without additional runtime dependencies or external fonts.
 - Added a two-second terminal opening that types `npm run my-journey` before the four chapters; total intro duration remains 15 seconds.
+- Added chapter-specific scenery: campus architecture and drifting petals, a code window with a reveal animation and bug-fix badge, graduation caps and achievement toast, and a developer workspace with a skyline. Added staggered entrances while preserving skip and the 15-second clock.
+- Added explicit 32px PNG and ICO favicons plus an Apple touch icon from the existing artwork. The header wordmark now replays the main intro.
+- Added short, replayable illustration stories on Home, Education, Experience, Projects, Open Source, and Contact without blocking page interaction; disabled for reduced motion.
+- Enlarged certification logo containers, constrained both dimensions with contain sizing, and retained a white logo backing in dark mode so dark marks stay readable.
+
+- Corrected low-contrast certification artwork: dark backing for Thai MOOC, Mahidol, and Kasetsart white wordmarks, green for Android Enterprise. Wider logo panels preserve horizontal artwork at readable sizes.
+
+- Restored each certification’s original `color_code` backing instead of guessing logo contrast; fixed intrinsic grid image overflow with a bounded flex container and explicit image height.
+- Replaced caption-only Little Story controls with an on-demand three-act illustration player. Each page uses its own artwork and narrative; employee badge swings in, artwork gains color, and the final act celebrates. Includes pause, next, replay, close/Escape, and manual progression for reduced-motion visitors.

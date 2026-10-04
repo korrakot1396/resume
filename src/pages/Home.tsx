@@ -1,3 +1,4 @@
+import { IllustrationStory } from "../components/IllustrationStory";
 import { Link } from "react-router";
 import {
   ArrowDown,
@@ -50,6 +51,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-art">
+          <IllustrationStory kind="home" />
           <div className="hero-orbit" aria-hidden="true" />
           <div className="portrait-doodles" aria-hidden="true">
             <Star />

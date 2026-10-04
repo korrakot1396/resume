@@ -1,3 +1,4 @@
+import { IllustrationStory } from "./IllustrationStory";
 import {
   Code2,
   GitBranch,
@@ -59,6 +60,7 @@ export function IllustrationScene({ kind }: { kind: IllustrationKind }) {
   const { image, alt, label, caption, note, Icon } = scenes[kind];
   return (
     <figure className={`illustration-scene scene-${kind}`}>
+      <IllustrationStory kind={kind} />
       <div className="scene-backdrop" aria-hidden="true" />
       <div className="scene-doodles" aria-hidden="true">
         <Star className="doodle-star" />

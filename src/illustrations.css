@@ -787,3 +787,94 @@
 .terminal-output { font-size: 10px; opacity: 0; animation: story-arrive .3s 1.3s forwards; }
 @keyframes terminal-type { to { width: 17ch; } }
 .career-story .intro-progress span { animation-duration: 13s; }
+
+/* Each chapter gets its own small world, behind the original character. */
+.story-scenery { position: absolute; inset: 0; pointer-events: none; }
+.scene-halo { position: absolute; inset: 12% 4% 0; border-radius: 48% 48% 10% 10%; background: #d9e5d4; opacity: .5; animation: scene-open .7s cubic-bezier(.2,.8,.2,1) both; }
+.scenery-1 .scene-halo { background: #cec9ed; border-radius: 50%; }
+.scenery-2 .scene-halo { background: #ffe1a4; border-radius: 50% 50% 12% 12%; }
+.scenery-3 .scene-halo { background: #c9dfef; }
+.campus-building { position: absolute; width: 120%; left: -10%; bottom: 5%; opacity: .28; }
+.career-sticker { position: absolute; z-index: 3; display: flex; align-items: center; gap: 7px; padding: 12px; border-radius: 16px; background: #ffffffed; color: var(--story-accent); box-shadow: 0 8px 24px #4e496514; animation: sticker-in .55s .25s both, sticker-drift 3s .8s ease-in-out infinite; }
+.career-sticker span { font-size: .57rem; max-width: 62px; text-align: left; }
+.sticker-left { left: -2%; top: 35%; rotate: -9deg; }
+.sticker-right { right: -2%; top: 25%; rotate: 9deg; }
+.scene-petals { position: absolute; inset: 0; overflow: hidden; }
+.scene-petals i { position: absolute; width: 10px; height: 6px; background: #edbdca; border-radius: 80% 0 80% 0; animation: petal-drift 3s linear infinite; }
+.scene-code-window { position: absolute; left: -3%; top: 25%; z-index: 2; width: 158px; padding: 12px; background: #292b46; color: #cae6df; border: 1px solid #ffffff30; border-radius: 12px; text-align: left; rotate: -7deg; box-shadow: 0 12px 25px #36314a20; animation: sticker-in .6s both; }
+.scene-window-dots { font: 8px monospace; color: #d6a4bb; letter-spacing: 3px; margin-bottom: 9px; }
+.scene-window-dots span { color: #aeb4cb; letter-spacing: 0; float: right; }
+.scene-code-window code { display: block; font: 9px/1.8 monospace; clip-path: inset(0 0 100% 0); animation: code-reveal 1.3s .35s steps(5) forwards; }
+.scene-code-window code span { color: #c4a3f5; }
+.scene-bug { position: absolute; right: 0; bottom: 23%; z-index: 3; color: #ad717e; animation: sticker-in .6s both; }
+.scene-bug span { display: flex; align-items: center; gap: 4px; font: 10px monospace; background: #fff; padding: 6px; border-radius: 6px; animation: sticker-in .3s 1.3s both; color: #568872; }
+.scene-glyph { position: absolute; color: #9990c0; font: 24px monospace; animation: sticker-drift 3s infinite; }
+.glyph-one { left: 0; top: 10%; }.glyph-two { right: 0; bottom: 8%; }
+.graduation-rays { position: absolute; inset: 0; background: repeating-conic-gradient(from 0deg at 50% 55%, transparent 0deg 20deg, #f0cb731c 20deg 30deg); mask-image: radial-gradient(ellipse, #000, transparent 70%); }
+.flying-cap { position: absolute; z-index: 3; color: #74627a; animation: cap-toss 2.8s ease-out both; }
+.cap-one { left: 0; top: 26%; rotate: -20deg; }.cap-two { right: 0; top: 15%; rotate: 25deg; animation-delay: .2s; }
+.scene-achievement { position: absolute; bottom: 12%; left: 4%; right: 4%; z-index: 4; display: flex; align-items: center; gap: 12px; padding: 14px; background: #3c314a; color: #ffe0a1; border-radius: 14px; text-align: left; box-shadow: 0 10px 30px #49324722; animation: sticker-in .6s .6s both; }
+.scene-achievement span { font-size: .72rem; }.scene-achievement small { display: block; font: 8px/1.8 monospace; letter-spacing: 1px; color: #dec6a8; }
+.scene-skyline { position: absolute; bottom: 8%; left: -5%; right: -5%; height: 42%; display: flex; align-items: end; gap: 7px; opacity: .5; }
+.scene-skyline i { flex: 1; background: repeating-linear-gradient(0deg, #b2cbdf 0 15px, #d7e7ee 15px 19px); border-radius: 4px 4px 0 0; }
+.scene-product { position: absolute; top: 33%; left: -1%; width: 128px; padding: 12px; border-radius: 12px; background: #fff; color: #8679ac; z-index: 2; rotate: -8deg; box-shadow: 0 8px 24px #3d52631a; animation: sticker-in .5s .2s both; }
+.scene-product > span { font-size: 7px; }.product-lines { height: 5px; background: #ebeaf3; margin: 7px 0; border-radius: 3px; }
+.scene-online { position: absolute; bottom: 18%; right: -1%; padding: 9px; border-radius: 20px; background: #ffffffed; font: 8px monospace; color: #628674; z-index: 3; animation: sticker-in .5s .8s both; }
+.scene-online i { display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: #66aa83; margin-right: 4px; }
+.career-story .intro-copy h1, .career-story .intro-copy .eyebrow { animation: story-arrive .5s both; }
+.career-story .intro-art img { animation: character-reveal .7s ease-out both; }
+.story-boot { background-image: radial-gradient(#ffffff0c 1px, transparent 1px); background-size: 22px 22px; }
+.story-terminal { animation: terminal-enter .5s ease-out both; }
+@keyframes terminal-enter { from { opacity: 0; translate: 0 15px; } to { opacity: 1; translate: 0 0; } }
+@keyframes scene-open { from { opacity: 0; transform: scale(.8); } to { opacity: .5; transform: scale(1); } }
+@keyframes character-reveal { from { opacity: 0; translate: 0 20px; scale: .96; } to { opacity: 1; translate: 0 0; scale: 1; } }
+@keyframes sticker-in { from { opacity: 0; scale: .7; translate: 0 12px; } to { opacity: 1; scale: 1; translate: 0 0; } }
+@keyframes sticker-drift { 50% { transform: translateY(-6px) rotate(3deg); } }
+@keyframes petal-drift { from { top: -4%; transform: rotate(0); } to { top: 100%; transform: rotate(240deg) translateX(25px); } }
+@keyframes code-reveal { to { clip-path: inset(0); } }
+@keyframes cap-toss { from { translate: 0 60px; opacity: 0; } 30% { translate: 0 -20px; opacity: 1; } to { translate: 0 0; opacity: 1; } }
+@media (max-width: 360px) { .scene-code-window { width: 124px; padding: 9px; }.scene-code-window code { font-size: 7px; }.scene-product { width: 96px; }.career-sticker { padding: 8px; }.career-sticker span { font-size: 8px; } }
+@media (max-height: 650px) { .career-sticker span, .scene-online { display: none; }.scene-product { width: 88px; }.scene-code-window { top: 5%; } }
+
+.illustration-story { position: absolute; inset: 0; z-index: 6; pointer-events: none; }
+.illustration-story-lines { position: absolute; top: 15%; left: 5%; right: 5%; height: 44px; }
+.illustration-story-lines > span { position: absolute; inset: 0 auto auto 0; display: inline-flex; align-items: center; gap: 7px; padding: 11px 14px; background: var(--surface, #fff); color: var(--text, #352d43); border: 1px solid #b7a7d440; border-radius: 16px 16px 16px 3px; box-shadow: 0 8px 25px #42365e12; font-size: .72rem; opacity: 0; animation: illustration-tale 1.5s ease both; }
+.story-replay { pointer-events: auto; position: absolute; bottom: 5%; right: 4%; border: 1px solid #ad9bc740; border-radius: 20px; background: var(--surface, #fff); color: var(--text, #514665); padding: 7px 10px; display: inline-flex; gap: 5px; align-items: center; font: inherit; font-size: .6rem; cursor: pointer; }
+.story-replay:hover { border-color: #9480bc; }
+.story-replay:focus-visible { outline: 2px solid #8873c0; outline-offset: 3px; }
+@keyframes illustration-tale { 0% { opacity: 0; transform: translateY(9px) scale(.96); } 18%, 80% { opacity: 1; transform: translateY(0) scale(1); } 100% { opacity: 0; transform: translateY(-5px); } }
+@media (prefers-reduced-motion: reduce) { .illustration-story { display: none; } }
+
+/* Issuer artwork includes white lettering: keep its intended contrast in both themes. */
+.certificate-card { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.certificate-card .certificate-logo { width: min(180px, 100%); height: 80px; padding: 12px; border-radius: 12px; border: 1px solid #e6e3eb; background: #fff; }
+
+
+
+.certificate-card .certificate-logo { display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.certificate-card .certificate-logo img { width: 100%; height: 54px; max-width: 100%; max-height: 54px; min-width: 0; min-height: 0; object-fit: contain; flex: 0 1 auto; }
+
+.mini-story { color: #3f3652; background: #fbf8ff; border-radius: 22px; overflow: hidden; padding: 18px; }
+.mini-story-stage { position: relative; isolation: isolate; height: min(46dvh, 390px); min-height: 180px; display: grid; place-items: center; }
+.mini-story-stage img { height: 100%; width: 100%; object-fit: contain; min-height: 0; mix-blend-mode: multiply; animation: mini-art-in .8s ease both; }
+.mini-story-contact .mini-story-stage img { animation: badge-story-swing 2.4s ease-in-out both; transform-origin: 50% 0; }
+.mini-story-step-0 .mini-story-stage img { filter: saturate(.35); }
+.mini-story-step-1 { background: #f0f8f4; }
+.mini-story-step-2 { background: #fff7e9; }
+.mini-story-halo { position: absolute; inset: 6% 12%; z-index: -1; background: #e6dcf4; border-radius: 48% 52% 45% 55%; animation: mini-art-in .7s ease both; }
+.mini-story-step-1 .mini-story-halo { background: #d9ede2; }
+.mini-story-step-2 .mini-story-halo { background: #f6e5bd; }
+.mini-story-token { position: absolute; left: 3%; top: 10%; z-index: 2; display: flex; align-items: center; gap: 6px; font-size: .7rem; background: white; color: #725b91; border-radius: 12px; padding: 10px; box-shadow: 0 8px 25px #53406914; rotate: -6deg; animation: sticker-in .6s .15s both; }
+.mini-story-star { position: absolute; color: #b499ca; z-index: 2; animation: sticker-drift 2.4s ease-in-out infinite; }
+.star-a { right: 7%; top: 22%; }.star-b { left: 9%; bottom: 17%; width: 17px; }
+.mini-story-caption { text-align: center; padding: 18px 0 6px; animation: story-arrive .4s both; }
+.mini-story-caption .eyebrow { justify-content: center; font-size: .6rem; color: #8b759b; }
+.mini-story-caption h3 { font-size: clamp(1.1rem, 4vw, 1.5rem); min-height: 2.5em; margin: 10px 0; }
+.mini-story-controls { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.mini-story-controls .button { padding: 10px 12px; font-size: .72rem; }
+.mini-story-celebrate { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.mini-story-celebrate i { position: absolute; width: 7px; height: 10px; border-radius: 2px; background: #c4a6d8; animation: story-fall 2.4s both; }
+.mini-story-celebrate i:nth-child(even) { background: #b8d5ad; }
+@keyframes mini-art-in { from { opacity: 0; transform: translateY(14px) scale(.92); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes badge-story-swing { 0% { opacity: 0; transform: rotate(-9deg) translateY(-15px); } 30% { opacity: 1; transform: rotate(5deg); } 65% { transform: rotate(-2deg); } 100% { transform: rotate(0); } }
+@media (prefers-reduced-motion: reduce) { .illustration-story { display: block; }.mini-story-stage img { filter: none; } }
